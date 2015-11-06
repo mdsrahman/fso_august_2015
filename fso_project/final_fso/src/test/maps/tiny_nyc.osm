@@ -1,0 +1,2136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.4.0 (13872 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="40.7129600" minlon="-74.0034600" maxlat="40.7144600" maxlon="-73.9997600"/>
+ <node id="42427300" visible="true" version="7" changeset="14488322" timestamp="2013-01-01T16:02:14Z" user="tipex" uid="177013" lat="40.7151767" lon="-74.0021357">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="42435448" visible="true" version="3" changeset="3377489" timestamp="2009-12-15T08:19:30Z" user="NE2" uid="207745" lat="40.7159180" lon="-73.9993210">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="42435440" visible="true" version="2" changeset="2221591" timestamp="2009-08-21T10:58:27Z" user="woodpeck_fixbot" uid="147510" lat="40.7151670" lon="-73.9996530"/>
+ <node id="42445466" visible="true" version="4" changeset="3377489" timestamp="2009-12-15T08:19:32Z" user="NE2" uid="207745" lat="40.7155919" lon="-74.0030273">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="42455588" visible="true" version="4" changeset="2364928" timestamp="2009-09-03T23:04:56Z" user="Tom Churchill" uid="158340" lat="40.7133247" lon="-74.0019719"/>
+ <node id="42425955" visible="true" version="5" changeset="3377489" timestamp="2009-12-15T08:19:28Z" user="NE2" uid="207745" lat="40.7143719" lon="-74.0004523">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="42425953" visible="true" version="3" changeset="2221591" timestamp="2009-08-21T10:56:40Z" user="woodpeck_fixbot" uid="147510" lat="40.7132630" lon="-74.0009320"/>
+ <node id="42430540" visible="true" version="4" changeset="34308542" timestamp="2015-09-28T17:06:06Z" user="robgeb" uid="336460" lat="40.7145736" lon="-74.0040114"/>
+ <node id="42430535" visible="true" version="4" changeset="14488322" timestamp="2013-01-01T16:02:14Z" user="tipex" uid="177013" lat="40.7141186" lon="-74.0034172">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="42437746" visible="true" version="4" changeset="2221591" timestamp="2009-08-21T10:58:48Z" user="woodpeck_fixbot" uid="147510" lat="40.7116970" lon="-74.0008730"/>
+ <node id="42438038" visible="true" version="3" changeset="3377489" timestamp="2009-12-15T08:19:29Z" user="NE2" uid="207745" lat="40.7162000" lon="-74.0001380"/>
+ <node id="42444305" visible="true" version="2" changeset="2221591" timestamp="2009-08-21T10:59:59Z" user="woodpeck_fixbot" uid="147510" lat="40.7134960" lon="-74.0012570"/>
+ <node id="42444310" visible="true" version="2" changeset="2221591" timestamp="2009-08-21T10:59:59Z" user="woodpeck_fixbot" uid="147510" lat="40.7137860" lon="-74.0017370"/>
+ <node id="42444331" visible="true" version="3" changeset="3377489" timestamp="2009-12-15T08:19:33Z" user="NE2" uid="207745" lat="40.7146959" lon="-74.0031729">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="42445783" visible="true" version="2" changeset="2221591" timestamp="2009-08-21T11:00:11Z" user="woodpeck_fixbot" uid="147510" lat="40.7151700" lon="-74.0005280"/>
+ <node id="42447266" visible="true" version="3" changeset="2789298" timestamp="2009-10-09T02:30:37Z" user="chrismcnally" uid="29040" lat="40.7147939" lon="-74.0013103"/>
+ <node id="42459682" visible="true" version="2" changeset="2221591" timestamp="2009-08-21T11:01:33Z" user="woodpeck_fixbot" uid="147510" lat="40.7134520" lon="-74.0014260"/>
+ <node id="42427278" visible="true" version="6" changeset="9126115" timestamp="2011-08-26T01:52:39Z" user="vkungys" uid="128470" lat="40.7136416" lon="-74.0036383">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="42452820" visible="true" version="3" changeset="2789298" timestamp="2009-10-09T02:30:37Z" user="chrismcnally" uid="29040" lat="40.7145169" lon="-74.0007433"/>
+ <node id="42435434" visible="true" version="3" changeset="2789298" timestamp="2009-10-09T02:30:37Z" user="chrismcnally" uid="29040" lat="40.7139319" lon="-73.9995543"/>
+ <node id="534992385" visible="true" version="4" changeset="11772076" timestamp="2012-06-01T21:35:44Z" user="Eliyak" uid="439046" lat="40.7132031" lon="-73.9997026">
+  <tag k="barrier" v="gate"/>
+ </node>
+ <node id="42445780" visible="true" version="3" changeset="3377489" timestamp="2009-12-15T08:19:29Z" user="NE2" uid="207745" lat="40.7152910" lon="-74.0007890"/>
+ <node id="1241256377" visible="true" version="1" changeset="7836997" timestamp="2011-04-11T20:14:05Z" user="JessAk71" uid="381909" lat="40.7141978" lon="-74.0032545"/>
+ <node id="1241256390" visible="true" version="1" changeset="7836997" timestamp="2011-04-11T20:14:05Z" user="JessAk71" uid="381909" lat="40.7142364" lon="-74.0032679"/>
+ <node id="1241256399" visible="true" version="1" changeset="7836997" timestamp="2011-04-11T20:14:05Z" user="JessAk71" uid="381909" lat="40.7145087" lon="-74.0025518"/>
+ <node id="1241256401" visible="true" version="1" changeset="7836997" timestamp="2011-04-11T20:14:06Z" user="JessAk71" uid="381909" lat="40.7147629" lon="-74.0028790"/>
+ <node id="1241256403" visible="true" version="1" changeset="7836997" timestamp="2011-04-11T20:14:06Z" user="JessAk71" uid="381909" lat="40.7147343" lon="-74.0030703"/>
+ <node id="1241256405" visible="true" version="1" changeset="7836997" timestamp="2011-04-11T20:14:06Z" user="JessAk71" uid="381909" lat="40.7141713" lon="-74.0028870"/>
+ <node id="1241256406" visible="true" version="1" changeset="7836997" timestamp="2011-04-11T20:14:06Z" user="JessAk71" uid="381909" lat="40.7147486" lon="-74.0026483"/>
+ <node id="1241256410" visible="true" version="1" changeset="7836997" timestamp="2011-04-11T20:14:06Z" user="JessAk71" uid="381909" lat="40.7147181" lon="-74.0025652"/>
+ <node id="1241256434" visible="true" version="1" changeset="7836997" timestamp="2011-04-11T20:14:07Z" user="JessAk71" uid="381909" lat="40.7141205" lon="-74.0029541"/>
+ <node id="1241256464" visible="true" version="1" changeset="7836997" timestamp="2011-04-11T20:14:07Z" user="JessAk71" uid="381909" lat="40.7147629" lon="-74.0027637"/>
+ <node id="1241256473" visible="true" version="1" changeset="7836997" timestamp="2011-04-11T20:14:08Z" user="JessAk71" uid="381909" lat="40.7146734" lon="-74.0024874"/>
+ <node id="1241256483" visible="true" version="1" changeset="7836997" timestamp="2011-04-11T20:14:08Z" user="JessAk71" uid="381909" lat="40.7141571" lon="-74.0032304"/>
+ <node id="1241256495" visible="true" version="1" changeset="7836997" timestamp="2011-04-11T20:14:08Z" user="JessAk71" uid="381909" lat="40.7140982" lon="-74.0031472"/>
+ <node id="1241256510" visible="true" version="1" changeset="7836997" timestamp="2011-04-11T20:14:09Z" user="JessAk71" uid="381909" lat="40.7147608" lon="-74.0029541"/>
+ <node id="1241256516" visible="true" version="1" changeset="7836997" timestamp="2011-04-11T20:14:09Z" user="JessAk71" uid="381909" lat="40.7140880" lon="-74.0030828"/>
+ <node id="1241256536" visible="true" version="1" changeset="7836997" timestamp="2011-04-11T20:14:09Z" user="JessAk71" uid="381909" lat="40.7143299" lon="-74.0026751"/>
+ <node id="1241256547" visible="true" version="1" changeset="7836997" timestamp="2011-04-11T20:14:10Z" user="JessAk71" uid="381909" lat="40.7141246" lon="-74.0031874"/>
+ <node id="1241256551" visible="true" version="1" changeset="7836997" timestamp="2011-04-11T20:14:10Z" user="JessAk71" uid="381909" lat="40.7140921" lon="-74.0030212"/>
+ <node id="1251908576" visible="true" version="1" changeset="7911792" timestamp="2011-04-19T22:46:37Z" user="JessAk71" uid="381909" lat="40.7137212" lon="-74.0016298"/>
+ <node id="1251908577" visible="true" version="1" changeset="7911792" timestamp="2011-04-19T22:46:37Z" user="JessAk71" uid="381909" lat="40.7144202" lon="-74.0005493"/>
+ <node id="1251908578" visible="true" version="1" changeset="7911792" timestamp="2011-04-19T22:46:37Z" user="JessAk71" uid="381909" lat="40.7138928" lon="-74.0010605"/>
+ <node id="1251908593" visible="true" version="1" changeset="7911792" timestamp="2011-04-19T22:46:37Z" user="JessAk71" uid="381909" lat="40.7127116" lon="-74.0029352"/>
+ <node id="1251908606" visible="true" version="1" changeset="7911792" timestamp="2011-04-19T22:46:38Z" user="JessAk71" uid="381909" lat="40.7138145" lon="-74.0032609"/>
+ <node id="1251908623" visible="true" version="1" changeset="7911792" timestamp="2011-04-19T22:46:38Z" user="JessAk71" uid="381909" lat="40.7130323" lon="-74.0030299"/>
+ <node id="1253070385" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:27Z" user="JessAk71" uid="381909" lat="40.7140433" lon="-74.0032451"/>
+ <node id="1253070422" visible="true" version="2" changeset="14488322" timestamp="2013-01-01T16:02:14Z" user="tipex" uid="177013" lat="40.7142657" lon="-74.0026305"/>
+ <node id="1253070448" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:29Z" user="JessAk71" uid="381909" lat="40.7142628" lon="-74.0034554"/>
+ <node id="1253070390" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:09Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135460" lon="-74.0025975"/>
+ <node id="1253070481" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:09Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134978" lon="-74.0025509"/>
+ <node id="1253070530" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:31Z" user="JessAk71" uid="381909" lat="40.7147077" lon="-74.0030809"/>
+ <node id="1253070618" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:34Z" user="JessAk71" uid="381909" lat="40.7138693" lon="-74.0031496"/>
+ <node id="1253070621" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:09Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136364" lon="-74.0026846"/>
+ <node id="1253070671" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:35Z" user="JessAk71" uid="381909" lat="40.7140395" lon="-74.0034479"/>
+ <node id="1253070686" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:35Z" user="JessAk71" uid="381909" lat="40.7147524" lon="-74.0032520"/>
+ <node id="1253070639" visible="true" version="2" changeset="22032153" timestamp="2014-04-29T21:30:34Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7139813" lon="-73.9999854"/>
+ <node id="1253070652" visible="true" version="2" changeset="22032153" timestamp="2014-04-29T21:30:34Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7139323" lon="-74.0001978"/>
+ <node id="1253070683" visible="true" version="2" changeset="22032153" timestamp="2014-04-29T21:30:34Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137473" lon="-73.9998950"/>
+ <node id="1253070717" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:09Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136650" lon="-74.0022491"/>
+ <node id="1253070749" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:38Z" user="JessAk71" uid="381909" lat="40.7139644" lon="-74.0033163"/>
+ <node id="1253070758" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:38Z" user="JessAk71" uid="381909" lat="40.7142730" lon="-74.0034262"/>
+ <node id="1253070767" visible="true" version="2" changeset="22032153" timestamp="2014-04-29T21:30:34Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137022" lon="-74.0001086"/>
+ <node id="1253070744" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:09Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136467" lon="-74.0022821"/>
+ <node id="1253070774" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:09Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135573" lon="-74.0026083"/>
+ <node id="1253070793" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:39Z" user="JessAk71" uid="381909" lat="40.7142466" lon="-74.0035013"/>
+ <node id="1253070804" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:39Z" user="JessAk71" uid="381909" lat="40.7146856" lon="-74.0040162"/>
+ <node id="1253070808" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:40Z" user="JessAk71" uid="381909" lat="40.7144905" lon="-74.0033538"/>
+ <node id="1253070814" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:40Z" user="JessAk71" uid="381909" lat="40.7155375" lon="-74.0031258"/>
+ <node id="1253070812" visible="true" version="2" changeset="14186622" timestamp="2012-12-07T12:02:49Z" user="JaLooNz" uid="741163" lat="40.7161514" lon="-74.0044690"/>
+ <node id="1253070826" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:40Z" user="JessAk71" uid="381909" lat="40.7154935" lon="-74.0030433"/>
+ <node id="1253070839" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:40Z" user="JessAk71" uid="381909" lat="40.7147365" lon="-74.0032546"/>
+ <node id="1253070840" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:40Z" user="JessAk71" uid="381909" lat="40.7141182" lon="-74.0031776"/>
+ <node id="1253070958" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:09Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7138386" lon="-74.0024164"/>
+ <node id="1253070967" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:09Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135725" lon="-74.0024161"/>
+ <node id="1253070985" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:45Z" user="JessAk71" uid="381909" lat="40.7148474" lon="-74.0014256"/>
+ <node id="1253070999" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:46Z" user="JessAk71" uid="381909" lat="40.7142347" lon="-74.0033688"/>
+ <node id="1253071019" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:46Z" user="JessAk71" uid="381909" lat="40.7144702" lon="-74.0033484"/>
+ <node id="1253071035" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:47Z" user="JessAk71" uid="381909" lat="40.7143157" lon="-74.0026941"/>
+ <node id="1253071045" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:47Z" user="JessAk71" uid="381909" lat="40.7147294" lon="-74.0031641"/>
+ <node id="42443832" visible="true" version="9" changeset="21829825" timestamp="2014-04-21T06:31:09Z" user="Omnific2" uid="2027261" lat="40.7129846" lon="-74.0008561"/>
+ <node id="1329113669" visible="true" version="1" changeset="8469456" timestamp="2011-06-17T23:31:05Z" user="JessAk71" uid="381909" lat="40.7144330" lon="-74.0029200">
+  <tag k="historic" v="memorial"/>
+  <tag k="name" v="Triumph of the Human Spirit Memorial"/>
+ </node>
+ <node id="1730318399" visible="true" version="1" changeset="11412471" timestamp="2012-04-25T08:55:56Z" user="robgeb" uid="336460" lat="40.7132748" lon="-74.0004409"/>
+ <node id="1730318412" visible="true" version="1" changeset="11412471" timestamp="2012-04-25T08:55:57Z" user="robgeb" uid="336460" lat="40.7135411" lon="-73.9989389"/>
+ <node id="1730318413" visible="true" version="1" changeset="11412471" timestamp="2012-04-25T08:55:57Z" user="robgeb" uid="336460" lat="40.7134720" lon="-73.9991078"/>
+ <node id="1730318417" visible="true" version="1" changeset="11412471" timestamp="2012-04-25T08:55:57Z" user="robgeb" uid="336460" lat="40.7121721" lon="-74.0008649"/>
+ <node id="1730318423" visible="true" version="1" changeset="11412471" timestamp="2012-04-25T08:55:58Z" user="robgeb" uid="336460" lat="40.7141470" lon="-74.0002317"/>
+ <node id="1251908564" visible="true" version="4" changeset="16867071" timestamp="2013-07-07T23:46:36Z" user="woodpeck_repair" uid="145231" lat="40.7128596" lon="-74.0008533"/>
+ <node id="1773055857" visible="true" version="1" changeset="11772076" timestamp="2012-06-01T21:35:43Z" user="Eliyak" uid="439046" lat="40.7127943" lon="-74.0021277"/>
+ <node id="1773055858" visible="true" version="1" changeset="11772076" timestamp="2012-06-01T21:35:43Z" user="Eliyak" uid="439046" lat="40.7127624" lon="-74.0022621"/>
+ <node id="1773055859" visible="true" version="1" changeset="11772076" timestamp="2012-06-01T21:35:43Z" user="Eliyak" uid="439046" lat="40.7132802" lon="-73.9997272">
+  <tag k="barrier" v="gate"/>
+ </node>
+ <node id="1773055860" visible="true" version="1" changeset="11772076" timestamp="2012-06-01T21:35:43Z" user="Eliyak" uid="439046" lat="40.7130610" lon="-74.0008757"/>
+ <node id="1773055861" visible="true" version="1" changeset="11772076" timestamp="2012-06-01T21:35:43Z" user="Eliyak" uid="439046" lat="40.7126688" lon="-74.0023640"/>
+ <node id="1773055862" visible="true" version="1" changeset="11772076" timestamp="2012-06-01T21:35:43Z" user="Eliyak" uid="439046" lat="40.7126277" lon="-74.0024963"/>
+ <node id="1773055863" visible="true" version="1" changeset="11772076" timestamp="2012-06-01T21:35:43Z" user="Eliyak" uid="439046" lat="40.7126619" lon="-74.0025770"/>
+ <node id="1773055867" visible="true" version="1" changeset="11772076" timestamp="2012-06-01T21:35:43Z" user="Eliyak" uid="439046" lat="40.7133859" lon="-73.9990217"/>
+ <node id="1773055869" visible="true" version="1" changeset="11772076" timestamp="2012-06-01T21:35:43Z" user="Eliyak" uid="439046" lat="40.7134556" lon="-73.9988316"/>
+ <node id="588751599" visible="true" version="2" changeset="11772076" timestamp="2012-06-01T21:35:44Z" user="Eliyak" uid="439046" lat="40.7127498" lon="-74.0020954"/>
+ <node id="1773047068" visible="true" version="2" changeset="11772076" timestamp="2012-06-01T21:35:44Z" user="Eliyak" uid="439046" lat="40.7133904" lon="-73.9986555"/>
+ <node id="1773047070" visible="true" version="2" changeset="11772076" timestamp="2012-06-01T21:35:44Z" user="Eliyak" uid="439046" lat="40.7133136" lon="-73.9989198"/>
+ <node id="1773055865" visible="true" version="2" changeset="11772076" timestamp="2012-06-01T21:39:14Z" user="Eliyak" uid="439046" lat="40.7135316" lon="-73.9986912">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="1783207697" visible="true" version="2" changeset="19265705" timestamp="2013-12-04T04:03:56Z" user="lxbarth_nycbuildings" uid="1764427" lat="40.7141471" lon="-74.0004277">
+  <tag k="addr:housenumber" v="200"/>
+  <tag k="addr:postcode" v="10007"/>
+  <tag k="addr:street" v="Worth Street"/>
+ </node>
+ <node id="1253070461" visible="true" version="2" changeset="14186622" timestamp="2012-12-07T12:02:49Z" user="JaLooNz" uid="741163" lat="40.7152352" lon="-74.0052178"/>
+ <node id="1253071031" visible="true" version="2" changeset="14488322" timestamp="2013-01-01T16:02:14Z" user="tipex" uid="177013" lat="40.7145960" lon="-74.0024324"/>
+ <node id="42427281" visible="true" version="6" changeset="14488322" timestamp="2013-01-01T16:02:14Z" user="tipex" uid="177013" lat="40.7139499" lon="-74.0030248">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="42427290" visible="true" version="7" changeset="14488322" timestamp="2013-01-01T16:02:14Z" user="tipex" uid="177013" lat="40.7142942" lon="-74.0026027">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="1241256442" visible="true" version="4" changeset="22142527" timestamp="2014-05-05T09:22:13Z" user="robgeb" uid="336460" lat="40.7132830" lon="-74.0035758"/>
+ <node id="1241256498" visible="true" version="4" changeset="22142527" timestamp="2014-05-05T09:22:13Z" user="robgeb" uid="336460" lat="40.7131951" lon="-74.0035894"/>
+ <node id="1241256515" visible="true" version="4" changeset="22142527" timestamp="2014-05-05T09:22:13Z" user="robgeb" uid="336460" lat="40.7128583" lon="-74.0041229"/>
+ <node id="1241256529" visible="true" version="4" changeset="22142527" timestamp="2014-05-05T09:22:13Z" user="robgeb" uid="336460" lat="40.7128044" lon="-74.0040233"/>
+ <node id="1241256531" visible="true" version="4" changeset="22142527" timestamp="2014-05-05T09:22:13Z" user="robgeb" uid="336460" lat="40.7133369" lon="-74.0036755"/>
+ <node id="2242203980" visible="true" version="3" changeset="22142527" timestamp="2014-05-05T09:22:13Z" user="robgeb" uid="336460" lat="40.7128411" lon="-74.0039203"/>
+ <node id="2622501612" visible="true" version="2" changeset="20259071" timestamp="2014-01-29T05:38:05Z" user="Aaron Lidman" uid="53073" lat="40.7142684" lon="-74.0015452">
+  <tag k="addr:city" v="New York City"/>
+  <tag k="addr:housename" v="Court House"/>
+  <tag k="addr:housenumber" v="60"/>
+  <tag k="addr:street" v="Center Street"/>
+  <tag k="amenity" v="courthouse"/>
+  <tag k="name" v="Supreme Court"/>
+  <tag k="source" v="local_knowledge"/>
+ </node>
+ <node id="2825288938" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:10Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7141238" lon="-74.0004390">
+  <tag k="addr:housenumber" v="154"/>
+  <tag k="addr:postcode" v="10007"/>
+  <tag k="addr:street" v="Worth Street"/>
+ </node>
+ <node id="2825288945" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:10Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137375" lon="-74.0000104">
+  <tag k="addr:housenumber" v="170"/>
+  <tag k="addr:postcode" v="10007"/>
+  <tag k="addr:street" v="Park Row"/>
+ </node>
+ <node id="2825288946" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:10Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7139442" lon="-74.0000866">
+  <tag k="addr:housenumber" v="170"/>
+  <tag k="addr:postcode" v="10007"/>
+  <tag k="addr:street" v="Worth Street"/>
+ </node>
+ <node id="2825288973" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:11Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136837" lon="-74.0012218">
+  <tag k="addr:housenumber" v="500"/>
+  <tag k="addr:postcode" v="10007"/>
+  <tag k="addr:street" v="Pearl Street"/>
+ </node>
+ <node id="2825290834" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132490" lon="-74.0006835"/>
+ <node id="2825290835" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132674" lon="-74.0005941"/>
+ <node id="2825290836" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133741" lon="-74.0008944"/>
+ <node id="2825290837" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134048" lon="-74.0008747"/>
+ <node id="2825290838" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134140" lon="-74.0005450"/>
+ <node id="2825290839" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134683" lon="-74.0005172"/>
+ <node id="2825290840" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134996" lon="-74.0005050"/>
+ <node id="2825290841" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135155" lon="-74.0005005"/>
+ <node id="2825290842" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135277" lon="-74.0000865"/>
+ <node id="2825290843" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135293" lon="-74.0005283"/>
+ <node id="2825290844" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135396" lon="-74.0000334"/>
+ <node id="2825290845" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135464" lon="-74.0005137"/>
+ <node id="2825290846" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135560" lon="-74.0005330"/>
+ <node id="2825290847" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135693" lon="-74.0005215"/>
+ <node id="2825290848" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135709" lon="-74.0012150"/>
+ <node id="2825290849" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135756" lon="-74.0001050"/>
+ <node id="2825290850" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135808" lon="-74.0012064"/>
+ <node id="2825290851" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135875" lon="-74.0000520"/>
+ <node id="2825290852" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135939" lon="-74.0012327"/>
+ <node id="2825290853" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135991" lon="-74.0012282"/>
+ <node id="2825290854" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136127" lon="-74.0012554"/>
+ <node id="2825290855" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136359" lon="-74.0006558"/>
+ <node id="2825290856" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136475" lon="-74.0012253"/>
+ <node id="2825290857" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136597" lon="-74.0012497"/>
+ <node id="2825290860" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136816" lon="-74.0012420"/>
+ <node id="2825290861" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137027" lon="-74.0012314"/>
+ <node id="2825290863" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137130" lon="-74.0012251"/>
+ <node id="2825290865" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137328" lon="-74.0012106"/>
+ <node id="2825290866" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137422" lon="-74.0012025"/>
+ <node id="2825290868" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137602" lon="-74.0011843"/>
+ <node id="2825290869" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137686" lon="-74.0011744"/>
+ <node id="2825290871" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137728" lon="-74.0009353"/>
+ <node id="2825290873" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137844" lon="-74.0011531"/>
+ <node id="2825290874" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137863" lon="-74.0011054"/>
+ <node id="2825290875" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137985" lon="-74.0011298"/>
+ <node id="2825290877" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7138119" lon="-74.0010460"/>
+ <node id="2825290879" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7138231" lon="-74.0010363"/>
+ <node id="2825290880" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7138249" lon="-74.0010720"/>
+ <node id="2825290884" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7138531" lon="-74.0016389"/>
+ <node id="2825290886" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7138565" lon="-74.0016548"/>
+ <node id="2825291001" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7139580" lon="-74.0010985"/>
+ <node id="2825291002" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7139584" lon="-74.0003795"/>
+ <node id="2825291003" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7139660" lon="-74.0010861"/>
+ <node id="2825291009" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7140032" lon="-74.0003412"/>
+ <node id="2825291010" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7140064" lon="-74.0015775"/>
+ <node id="2825291011" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7140117" lon="-74.0016069"/>
+ <node id="2825291017" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7140317" lon="-74.0014439"/>
+ <node id="2825291020" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7140393" lon="-74.0004141"/>
+ <node id="2825291022" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7140441" lon="-74.0013837"/>
+ <node id="2825291024" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7140531" lon="-74.0012941"/>
+ <node id="2825291028" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7140605" lon="-74.0012968"/>
+ <node id="2825291030" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7140662" lon="-74.0012506"/>
+ <node id="2825291035" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7140844" lon="-74.0012282"/>
+ <node id="2825291038" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7140883" lon="-74.0017059"/>
+ <node id="2825291043" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7141014" lon="-74.0003609"/>
+ <node id="2825291051" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7141229" lon="-74.0017431"/>
+ <node id="2825291071" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7141563" lon="-74.0020350"/>
+ <node id="2825291074" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7141638" lon="-74.0020697"/>
+ <node id="2825291080" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7141703" lon="-74.0018108"/>
+ <node id="2825291089" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7141849" lon="-74.0011917"/>
+ <node id="2825291092" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7141949" lon="-74.0014996"/>
+ <node id="2825291094" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7141951" lon="-74.0014831"/>
+ <node id="2825291095" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7141958" lon="-74.0018422"/>
+ <node id="2825291097" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7141976" lon="-74.0015213"/>
+ <node id="2825291098" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7141985" lon="-74.0014615"/>
+ <node id="2825291203" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142034" lon="-74.0005664"/>
+ <node id="2825291204" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142035" lon="-74.0020549"/>
+ <node id="2825291207" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142038" lon="-74.0015418"/>
+ <node id="2825291208" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142051" lon="-74.0014412"/>
+ <node id="2825291214" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142109" lon="-74.0015567"/>
+ <node id="2825291219" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142149" lon="-74.0014233"/>
+ <node id="2825291220" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142153" lon="-74.0018509"/>
+ <node id="2825291226" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:17Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142223" lon="-74.0015728"/>
+ <node id="2825291227" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:17Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142272" lon="-74.0014084"/>
+ <node id="2825291229" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:17Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142304" lon="-74.0011747"/>
+ <node id="2825291232" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:17Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142359" lon="-74.0022053"/>
+ <node id="2825291233" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:17Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142360" lon="-74.0015855"/>
+ <node id="2825291235" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:17Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142379" lon="-74.0013996"/>
+ <node id="2825291244" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:17Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142515" lon="-74.0015941"/>
+ <node id="2825291246" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:17Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142535" lon="-74.0013915"/>
+ <node id="2825291252" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:17Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142637" lon="-74.0015977"/>
+ <node id="2825291257" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:18Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142684" lon="-74.0012843"/>
+ <node id="2825291258" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:18Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142700" lon="-74.0013878"/>
+ <node id="2825291265" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:18Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142805" lon="-74.0015985"/>
+ <node id="2825291272" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:18Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142868" lon="-74.0013888"/>
+ <node id="2825291279" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:18Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7142970" lon="-74.0015948"/>
+ <node id="2825291285" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:18Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143030" lon="-74.0013942"/>
+ <node id="2825291289" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:18Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143069" lon="-74.0018197"/>
+ <node id="2825291294" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:18Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143126" lon="-74.0015866"/>
+ <node id="2825291297" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:18Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143181" lon="-74.0014040"/>
+ <node id="2825291402" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:18Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143232" lon="-74.0015777"/>
+ <node id="2825291406" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:18Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143281" lon="-74.0014139"/>
+ <node id="2825291408" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:18Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143313" lon="-74.0011361"/>
+ <node id="2825291410" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:18Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143355" lon="-74.0015628"/>
+ <node id="2825291413" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:19Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143369" lon="-74.0014258"/>
+ <node id="2825291417" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:19Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143452" lon="-74.0015447"/>
+ <node id="2825291418" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:19Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143462" lon="-74.0014441"/>
+ <node id="2825291420" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:19Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143518" lon="-74.0015245"/>
+ <node id="2825291421" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:19Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143524" lon="-74.0014646"/>
+ <node id="2825291422" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:19Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143527" lon="-74.0011431"/>
+ <node id="2825291426" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:19Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143546" lon="-74.0015084"/>
+ <node id="2825291427" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:19Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143552" lon="-74.0014863"/>
+ <node id="2825291438" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:19Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143754" lon="-74.0009335"/>
+ <node id="2825291440" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:19Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143784" lon="-74.0017939"/>
+ <node id="2825291445" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:19Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7143870" lon="-74.0009379"/>
+ <node id="2825291463" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:19Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7144286" lon="-74.0012391"/>
+ <node id="2825291482" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:20Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7144630" lon="-74.0012826"/>
+ <node id="2825291484" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:20Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7144655" lon="-74.0017585"/>
+ <node id="2825291488" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:20Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7144808" lon="-74.0017361"/>
+ <node id="2825291498" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:20Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7145089" lon="-74.0015991"/>
+ <node id="2825291603" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:20Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7145193" lon="-74.0015406"/>
+ <node id="2825291617" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:20Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7145389" lon="-74.0013788"/>
+ <node id="2825291619" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:20Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7145451" lon="-74.0014073"/>
+ <node id="2825291624" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:21Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7145608" lon="-74.0019219"/>
+ <node id="2825291637" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:21Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7145932" lon="-74.0020722"/>
+ <node id="2825291638" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:21Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7145938" lon="-74.0018721"/>
+ <node id="2825291639" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:21Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7146013" lon="-74.0019068"/>
+ <node id="2825291655" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:21Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7146488" lon="-74.0012696"/>
+ <node id="2825291674" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:22Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7146933" lon="-74.0013266"/>
+ <node id="2825291675" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:22Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7146964" lon="-74.0013344"/>
+ <node id="2825291677" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:22Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7146974" lon="-74.0013471"/>
+ <node id="2825365744" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:02:56Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131194" lon="-74.0024389">
+  <tag k="addr:housenumber" v="1"/>
+  <tag k="addr:postcode" v="10007"/>
+  <tag k="addr:street" v="Cardinal Hayes Place"/>
+ </node>
+ <node id="2825365749" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:02:56Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130350" lon="-74.0015977">
+  <tag k="addr:housenumber" v="150"/>
+  <tag k="addr:postcode" v="10007"/>
+  <tag k="addr:street" v="Park Row"/>
+ </node>
+ <node id="2825365751" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:02:56Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133823" lon="-74.0018223">
+  <tag k="addr:housenumber" v="24"/>
+  <tag k="addr:postcode" v="10007"/>
+  <tag k="addr:street" v="Cardinal Hayes Place"/>
+ </node>
+ <node id="2825365758" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:02:57Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7138780" lon="-74.0026788">
+  <tag k="addr:housenumber" v="40"/>
+  <tag k="addr:postcode" v="10007"/>
+  <tag k="addr:street" v="Centre Street"/>
+ </node>
+ <node id="2825365761" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:02:57Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133543" lon="-74.0012130">
+  <tag k="addr:housenumber" v="465"/>
+  <tag k="addr:postcode" v="10007"/>
+  <tag k="addr:street" v="Pearl Street"/>
+ </node>
+ <node id="2825366438" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7126620" lon="-74.0043064"/>
+ <node id="2825366442" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7128175" lon="-74.0025506"/>
+ <node id="2825366445" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7128616" lon="-74.0027760"/>
+ <node id="2825366446" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7128710" lon="-74.0026832"/>
+ <node id="2825366447" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7128777" lon="-74.0026853"/>
+ <node id="2825366449" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129050" lon="-74.0027893"/>
+ <node id="2825366450" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129212" lon="-74.0026986"/>
+ <node id="2825366451" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129356" lon="-74.0020068"/>
+ <node id="2825366454" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129714" lon="-74.0018450"/>
+ <node id="2825366455" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130065" lon="-74.0027247"/>
+ <node id="2825366456" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130233" lon="-74.0015766"/>
+ <node id="2825366457" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130314" lon="-74.0015541"/>
+ <node id="2825366459" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130378" lon="-74.0015680"/>
+ <node id="2825366461" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130462" lon="-74.0014839"/>
+ <node id="2825366462" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130484" lon="-74.0014641"/>
+ <node id="2825366463" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130534" lon="-74.0025045"/>
+ <node id="2825366464" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130545" lon="-74.0014444"/>
+ <node id="2825366465" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130572" lon="-74.0014769"/>
+ <node id="2825366466" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130618" lon="-74.0014570"/>
+ <node id="2825366467" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130689" lon="-74.0013761"/>
+ <node id="2825366468" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130736" lon="-74.0013596"/>
+ <node id="2825366469" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130779" lon="-74.0013692"/>
+ <node id="2825366470" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130904" lon="-74.0023346"/>
+ <node id="2825366471" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131022" lon="-74.0025225"/>
+ <node id="2825366472" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131080" lon="-74.0022527"/>
+ <node id="2825366473" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131084" lon="-74.0012053"/>
+ <node id="2825366474" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131133" lon="-74.0025184"/>
+ <node id="2825366475" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131171" lon="-74.0022105"/>
+ <node id="2825366476" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131334" lon="-74.0021106"/>
+ <node id="2825366477" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131360" lon="-74.0020993"/>
+ <node id="2825366478" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:01Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131382" lon="-74.0021124"/>
+ <node id="2825366479" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131401" lon="-74.0023529"/>
+ <node id="2825366480" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131471" lon="-74.0023674"/>
+ <node id="2825366481" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131507" lon="-74.0013005"/>
+ <node id="2825366482" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131728" lon="-74.0015989"/>
+ <node id="2825366483" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131850" lon="-74.0028135"/>
+ <node id="2825366484" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131855" lon="-74.0027525"/>
+ <node id="2825366485" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131921" lon="-74.0016425"/>
+ <node id="2825366486" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131925" lon="-74.0011408"/>
+ <node id="2825366488" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131974" lon="-74.0021276"/>
+ <node id="2825366489" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131992" lon="-74.0027586"/>
+ <node id="2825366490" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132053" lon="-74.0025759"/>
+ <node id="2825366491" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132088" lon="-74.0014406"/>
+ <node id="2825366492" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132097" lon="-74.0017638"/>
+ <node id="2825366493" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132170" lon="-74.0017582"/>
+ <node id="2825366494" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132186" lon="-74.0024677"/>
+ <node id="2825366495" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132285" lon="-74.0025862"/>
+ <node id="2825366496" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132316" lon="-74.0019650"/>
+ <node id="2825366497" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132317" lon="-74.0024736"/>
+ <node id="2825366498" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132355" lon="-74.0012376"/>
+ <node id="2825366499" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132363" lon="-74.0017434"/>
+ <node id="2825366500" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132382" lon="-74.0017420"/>
+ <node id="2825366501" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132395" lon="-74.0014170"/>
+ <node id="2825366502" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132398" lon="-74.0019688"/>
+ <node id="2825366503" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132421" lon="-74.0017507"/>
+ <node id="2825366504" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132532" lon="-74.0018617"/>
+ <node id="2825366505" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132572" lon="-74.0012120"/>
+ <node id="2825366506" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132585" lon="-74.0023132"/>
+ <node id="2825366507" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132602" lon="-74.0012187"/>
+ <node id="2825366508" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132659" lon="-74.0015859"/>
+ <node id="2825366509" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132829" lon="-74.0015147"/>
+ <node id="2825366511" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133068" lon="-74.0025071"/>
+ <node id="2825366512" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133145" lon="-74.0016951"/>
+ <node id="2825366513" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133189" lon="-74.0020164"/>
+ <node id="2825366514" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133242" lon="-74.0024397"/>
+ <node id="2825366515" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133308" lon="-74.0011556"/>
+ <node id="2825366516" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133308" lon="-74.0020041"/>
+ <node id="2825366518" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133380" lon="-74.0019588"/>
+ <node id="2825366519" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133380" lon="-74.0020477"/>
+ <node id="2825366520" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133485" lon="-74.0019859"/>
+ <node id="2825366521" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133520" lon="-74.0019823"/>
+ <node id="2825366522" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133529" lon="-74.0020722"/>
+ <node id="2825366523" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133574" lon="-74.0018731"/>
+ <node id="2825366524" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133582" lon="-74.0018496"/>
+ <node id="2825366525" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133589" lon="-74.0018965"/>
+ <node id="2825366526" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:02Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133595" lon="-74.0018380"/>
+ <node id="2825366527" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133605" lon="-74.0019080"/>
+ <node id="2825366528" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133606" lon="-74.0014331"/>
+ <node id="2825366529" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133636" lon="-74.0018151"/>
+ <node id="2825366530" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133654" lon="-74.0019306"/>
+ <node id="2825366531" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133665" lon="-74.0018040"/>
+ <node id="2825366532" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133679" lon="-74.0014495"/>
+ <node id="2825366533" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133693" lon="-74.0028958"/>
+ <node id="2825366534" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133700" lon="-74.0017931"/>
+ <node id="2825366535" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133711" lon="-74.0012707"/>
+ <node id="2825366536" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133784" lon="-74.0017724"/>
+ <node id="2825366537" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133791" lon="-74.0012645"/>
+ <node id="2825366539" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133834" lon="-74.0017626"/>
+ <node id="2825366540" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133847" lon="-74.0028363"/>
+ <node id="2825366541" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133903" lon="-74.0032315"/>
+ <node id="2825366542" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133947" lon="-74.0017444"/>
+ <node id="2825366543" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133958" lon="-74.0028413"/>
+ <node id="2825366544" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134076" lon="-74.0017282"/>
+ <node id="2825366545" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134178" lon="-74.0017181"/>
+ <node id="2825366546" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134213" lon="-74.0027428"/>
+ <node id="2825366547" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134227" lon="-74.0013844"/>
+ <node id="2825366548" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134252" lon="-74.0019369"/>
+ <node id="2825366549" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134298" lon="-74.0017083"/>
+ <node id="2825366550" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134388" lon="-74.0026748"/>
+ <node id="2825366551" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134455" lon="-74.0029308"/>
+ <node id="2825366552" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134460" lon="-74.0016982"/>
+ <node id="2825366553" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134497" lon="-74.0023986"/>
+ <node id="2825366554" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134544" lon="-74.0016942"/>
+ <node id="2825366555" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134588" lon="-74.0023633"/>
+ <node id="2825366556" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134625" lon="-74.0027612"/>
+ <node id="2825366557" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134706" lon="-74.0018888"/>
+ <node id="2825366558" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134717" lon="-74.0016884"/>
+ <node id="2825366559" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134739" lon="-74.0018922"/>
+ <node id="2825366560" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134801" lon="-74.0026932"/>
+ <node id="2825366561" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134812" lon="-74.0018971"/>
+ <node id="2825366562" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134814" lon="-74.0025100"/>
+ <node id="2825366563" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134891" lon="-74.0025519"/>
+ <node id="2825366564" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134893" lon="-74.0018993"/>
+ <node id="2825366565" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134895" lon="-74.0016856"/>
+ <node id="2825366566" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134934" lon="-74.0018993"/>
+ <node id="2825366567" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7134972" lon="-74.0027615"/>
+ <node id="2825366568" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135015" lon="-74.0018971"/>
+ <node id="2825366569" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135022" lon="-74.0020625"/>
+ <node id="2825366570" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135052" lon="-74.0018949"/>
+ <node id="2825366571" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135074" lon="-74.0016858"/>
+ <node id="2825366572" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:03Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135120" lon="-74.0018887"/>
+ <node id="2825366573" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135131" lon="-74.0023875"/>
+ <node id="2825366574" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135172" lon="-74.0018804"/>
+ <node id="2825366575" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135177" lon="-74.0018390"/>
+ <node id="2825366576" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135206" lon="-74.0018705"/>
+ <node id="2825366577" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135208" lon="-74.0018490"/>
+ <node id="2825366578" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135218" lon="-74.0018598"/>
+ <node id="2825366579" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135251" lon="-74.0016889"/>
+ <node id="2825366580" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135296" lon="-74.0025905"/>
+ <node id="2825366581" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135320" lon="-74.0034932"/>
+ <node id="2825366582" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135364" lon="-74.0025970"/>
+ <node id="2825366583" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135402" lon="-74.0026007"/>
+ <node id="2825366584" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135424" lon="-74.0016950"/>
+ <node id="2825366585" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135467" lon="-74.0018082"/>
+ <node id="2825366586" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135590" lon="-74.0017039"/>
+ <node id="2825366587" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135626" lon="-74.0024171"/>
+ <node id="2825366588" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135731" lon="-74.0018512"/>
+ <node id="2825366589" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135745" lon="-74.0017156"/>
+ <node id="2825366590" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135832" lon="-74.0021936"/>
+ <node id="2825366591" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135842" lon="-74.0018394"/>
+ <node id="2825366592" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135911" lon="-74.0022070"/>
+ <node id="2825366593" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135967" lon="-74.0027898"/>
+ <node id="2825366594" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136029" lon="-74.0016864"/>
+ <node id="2825366595" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136181" lon="-74.0017120"/>
+ <node id="2825366596" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136349" lon="-74.0019221"/>
+ <node id="2825366597" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136372" lon="-74.0022837"/>
+ <node id="2825366598" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136443" lon="-74.0027000"/>
+ <node id="2825366599" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136521" lon="-74.0016771"/>
+ <node id="2825366600" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136568" lon="-74.0029989"/>
+ <node id="2825366801" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136607" lon="-74.0022406"/>
+ <node id="2825366802" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136915" lon="-74.0029344"/>
+ <node id="2825366803" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136966" lon="-74.0020762"/>
+ <node id="2825366804" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137355" lon="-74.0029752"/>
+ <node id="2825366805" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137581" lon="-74.0021786"/>
+ <node id="2825366806" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137765" lon="-74.0021595"/>
+ <node id="2825366807" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7138310" lon="-74.0024008"/>
+ <node id="2825366808" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7138479" lon="-74.0024143"/>
+ <node id="2825366809" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7138867" lon="-74.0023432"/>
+ <node id="2825366810" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7138927" lon="-74.0020812"/>
+ <node id="2825366811" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7139015" lon="-74.0020722"/>
+ <node id="2825366812" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7139972" lon="-74.0023794"/>
+ <node id="2825366813" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7140362" lon="-74.0024155"/>
+ <node id="2825366814" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:04Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7140385" lon="-74.0023024"/>
+ <node id="2242203959" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:10Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7127824" lon="-74.0035641"/>
+ <node id="2242203975" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:10Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7128199" lon="-74.0036432"/>
+ <node id="2242203976" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:10Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7128236" lon="-74.0036398"/>
+ <node id="2242203990" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:10Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7128396" lon="-74.0035104"/>
+ <node id="2242203994" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:11Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7128441" lon="-74.0035166"/>
+ <node id="2242204009" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:11Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7128744" lon="-74.0037642"/>
+ <node id="2242204013" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:11Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7128784" lon="-74.0037610"/>
+ <node id="2242204051" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:11Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129113" lon="-74.0038458"/>
+ <node id="2242204074" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:12Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129286" lon="-74.0034263"/>
+ <node id="2242204077" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:12Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129316" lon="-74.0034317"/>
+ <node id="2242204121" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:12Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129498" lon="-74.0034448"/>
+ <node id="2242204128" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:12Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129555" lon="-74.0034142"/>
+ <node id="2242204129" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:12Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129571" lon="-74.0034435"/>
+ <node id="2242204137" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:12Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129610" lon="-74.0034724"/>
+ <node id="2242204138" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:12Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129613" lon="-74.0034211"/>
+ <node id="2242204150" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129664" lon="-74.0034638"/>
+ <node id="2242204157" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129724" lon="-74.0037843"/>
+ <node id="2242204160" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129731" lon="-74.0033984"/>
+ <node id="2242204163" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129739" lon="-74.0037878"/>
+ <node id="2242204165" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129743" lon="-74.0034096"/>
+ <node id="2242204172" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129828" lon="-74.0034684"/>
+ <node id="2242204174" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129834" lon="-74.0034778"/>
+ <node id="2242204181" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129873" lon="-74.0033706"/>
+ <node id="2242204186" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129914" lon="-74.0034131"/>
+ <node id="2242204192" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129944" lon="-74.0034037"/>
+ <node id="2242204195" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7129977" lon="-74.0034565"/>
+ <node id="2242204199" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:13Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130007" lon="-74.0034304"/>
+ <node id="2242204204" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130036" lon="-74.0034604"/>
+ <node id="2242204208" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130077" lon="-74.0034293"/>
+ <node id="2242204218" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130205" lon="-74.0034547"/>
+ <node id="2242204221" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130248" lon="-74.0034500"/>
+ <node id="2242204229" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130486" lon="-74.0037139"/>
+ <node id="2242204234" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130500" lon="-74.0037173"/>
+ <node id="2242204246" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130751" lon="-74.0035757"/>
+ <node id="2242204251" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7130794" lon="-74.0035727"/>
+ <node id="2242204263" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:14Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131144" lon="-74.0036481"/>
+ <node id="2242204265" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7131175" lon="-74.0036548"/>
+ <node id="2242204270" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7132477" lon="-74.0034106"/>
+ <node id="2242204274" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133548" lon="-74.0036072"/>
+ <node id="2242204278" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7133962" lon="-74.0032699"/>
+ <node id="2242204283" visible="true" version="3" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135054" lon="-74.0034665"/>
+ <node id="2794558086" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135115" lon="-74.0025476"/>
+ <node id="2794558088" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135315" lon="-74.0025435"/>
+ <node id="2794558089" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7135404" lon="-74.0025417"/>
+ <node id="2794558090" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136670" lon="-74.0022669"/>
+ <node id="2794558091" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136701" lon="-74.0022932"/>
+ <node id="2794558092" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136715" lon="-74.0023051"/>
+ <node id="2794558093" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136766" lon="-74.0025138"/>
+ <node id="2794558094" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136845" lon="-74.0025085"/>
+ <node id="2794558095" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136846" lon="-74.0025124"/>
+ <node id="2794558096" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136854" lon="-74.0025161"/>
+ <node id="2794558098" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136863" lon="-74.0025019"/>
+ <node id="2794558099" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136874" lon="-74.0025203"/>
+ <node id="2794558100" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136892" lon="-74.0024979"/>
+ <node id="2794558101" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136913" lon="-74.0025240"/>
+ <node id="2794558102" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136916" lon="-74.0024961"/>
+ <node id="2794558103" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136927" lon="-74.0024847"/>
+ <node id="2794558104" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136944" lon="-74.0024952"/>
+ <node id="2794558105" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136957" lon="-74.0024951"/>
+ <node id="2794558107" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136958" lon="-74.0025253"/>
+ <node id="2794558108" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136980" lon="-74.0025250"/>
+ <node id="2794558109" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136991" lon="-74.0024956"/>
+ <node id="2794558110" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7136992" lon="-74.0025356"/>
+ <node id="2794558111" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137008" lon="-74.0025238"/>
+ <node id="2794558113" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137039" lon="-74.0025211"/>
+ <node id="2794558114" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137043" lon="-74.0024998"/>
+ <node id="2794558115" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:15Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137066" lon="-74.0025159"/>
+ <node id="2794558116" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137068" lon="-74.0025051"/>
+ <node id="2794558117" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137072" lon="-74.0025077"/>
+ <node id="2794558118" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137074" lon="-74.0025114"/>
+ <node id="2794558119" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137154" lon="-74.0025065"/>
+ <node id="2794558121" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137204" lon="-74.0027153"/>
+ <node id="2794558122" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137217" lon="-74.0027271"/>
+ <node id="2794558123" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137249" lon="-74.0027535"/>
+ <node id="2794558124" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7137266" lon="-74.0027716"/>
+ <node id="2794558125" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7138515" lon="-74.0024787"/>
+ <node id="2794558126" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7138605" lon="-74.0024768"/>
+ <node id="2794558127" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7138805" lon="-74.0024726"/>
+ <node id="2794558128" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:16Z" user="Rub21_nycbuildings" uid="1781294" lat="40.7138938" lon="-74.0024698"/>
+ <node id="2242203931" visible="true" version="4" changeset="22142527" timestamp="2014-05-05T09:22:13Z" user="robgeb" uid="336460" lat="40.7125303" lon="-74.0040423"/>
+ <node id="2242203933" visible="true" version="4" changeset="22142527" timestamp="2014-05-05T09:22:13Z" user="robgeb" uid="336460" lat="40.7125229" lon="-74.0040493"/>
+ <node id="2242203938" visible="true" version="4" changeset="22142527" timestamp="2014-05-05T09:22:13Z" user="robgeb" uid="336460" lat="40.7126443" lon="-74.0035558"/>
+ <node id="2242203942" visible="true" version="4" changeset="22142527" timestamp="2014-05-05T09:22:13Z" user="robgeb" uid="336460" lat="40.7126529" lon="-74.0035718"/>
+ <node id="2242203951" visible="true" version="4" changeset="22142527" timestamp="2014-05-05T09:22:13Z" user="robgeb" uid="336460" lat="40.7127274" lon="-74.0034586"/>
+ <node id="2242203953" visible="true" version="4" changeset="22142527" timestamp="2014-05-05T09:22:13Z" user="robgeb" uid="336460" lat="40.7127344" lon="-74.0034716"/>
+ <node id="2242204080" visible="true" version="4" changeset="22142527" timestamp="2014-05-05T09:22:13Z" user="robgeb" uid="336460" lat="40.7129381" lon="-74.0032616"/>
+ <node id="2242204090" visible="true" version="4" changeset="22142527" timestamp="2014-05-05T09:22:13Z" user="robgeb" uid="336460" lat="40.7129443" lon="-74.0032729"/>
+ <node id="2242204224" visible="true" version="4" changeset="22142527" timestamp="2014-05-05T09:22:14Z" user="robgeb" uid="336460" lat="40.7130351" lon="-74.0031880"/>
+ <node id="2242204236" visible="true" version="4" changeset="22142527" timestamp="2014-05-05T09:22:14Z" user="robgeb" uid="336460" lat="40.7130440" lon="-74.0032045"/>
+ <node id="2242204281" visible="true" version="4" changeset="22142527" timestamp="2014-05-05T09:22:14Z" user="robgeb" uid="336460" lat="40.7133801" lon="-74.0032410"/>
+ <node id="2858256223" visible="true" version="1" changeset="22336752" timestamp="2014-05-14T16:19:29Z" user="ediyes" uid="1240849" lat="40.7126278" lon="-74.0027494"/>
+ <node id="2940444881" visible="true" version="1" changeset="23345804" timestamp="2014-06-30T12:38:09Z" user="MarcelHerault" uid="860575" lat="40.7141206" lon="-74.0014396"/>
+ <node id="2940444882" visible="true" version="1" changeset="23345804" timestamp="2014-06-30T12:38:09Z" user="MarcelHerault" uid="860575" lat="40.7141646" lon="-74.0016459"/>
+ <node id="2940444883" visible="true" version="1" changeset="23345804" timestamp="2014-06-30T12:38:09Z" user="MarcelHerault" uid="860575" lat="40.7142313" lon="-74.0012918"/>
+ <node id="2940444884" visible="true" version="1" changeset="23345804" timestamp="2014-06-30T12:38:09Z" user="MarcelHerault" uid="860575" lat="40.7143011" lon="-74.0017008"/>
+ <node id="2940444885" visible="true" version="1" changeset="23345804" timestamp="2014-06-30T12:38:09Z" user="MarcelHerault" uid="860575" lat="40.7143193" lon="-74.0016952"/>
+ <node id="2940444886" visible="true" version="1" changeset="23345804" timestamp="2014-06-30T12:38:09Z" user="MarcelHerault" uid="860575" lat="40.7143370" lon="-74.0016868"/>
+ <node id="2940444887" visible="true" version="1" changeset="23345804" timestamp="2014-06-30T12:38:09Z" user="MarcelHerault" uid="860575" lat="40.7143793" lon="-74.0013362"/>
+ <node id="2940444888" visible="true" version="1" changeset="23345804" timestamp="2014-06-30T12:38:09Z" user="MarcelHerault" uid="860575" lat="40.7143907" lon="-74.0013509"/>
+ <node id="2940444889" visible="true" version="1" changeset="23345804" timestamp="2014-06-30T12:38:09Z" user="MarcelHerault" uid="860575" lat="40.7144288" lon="-74.0015437"/>
+ <node id="2825291045" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7141152" lon="-74.0014910"/>
+ <node id="2825291046" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7141155" lon="-74.0015065"/>
+ <node id="2825291047" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7141162" lon="-74.0014704"/>
+ <node id="2825291048" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7141169" lon="-74.0015244"/>
+ <node id="2825291049" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7141204" lon="-74.0015472"/>
+ <node id="2825291053" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7141238" lon="-74.0015621"/>
+ <node id="2825291055" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7141284" lon="-74.0014100"/>
+ <node id="2825291057" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7141305" lon="-74.0015836"/>
+ <node id="2825291060" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7141389" lon="-74.0016041"/>
+ <node id="2825291061" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7141402" lon="-74.0013809"/>
+ <node id="2825291068" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7141488" lon="-74.0016229"/>
+ <node id="2825291070" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7141543" lon="-74.0013561"/>
+ <node id="2825291076" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7141666" lon="-74.0013393"/>
+ <node id="2825291085" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7141756" lon="-74.0013292"/>
+ <node id="2825291088" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7141828" lon="-74.0016656"/>
+ <node id="2825291093" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7141951" lon="-74.0013118"/>
+ <node id="2825291205" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7142035" lon="-74.0016819"/>
+ <node id="2825291210" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7142090" lon="-74.0013025"/>
+ <node id="2825291223" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7142198" lon="-74.0016911"/>
+ <node id="2825291230" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7142311" lon="-74.0016959"/>
+ <node id="2825291247" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7142544" lon="-74.0017021"/>
+ <node id="2825291249" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7142545" lon="-74.0012856"/>
+ <node id="2825291255" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7142662" lon="-74.0017035"/>
+ <node id="2825291266" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7142824" lon="-74.0017035"/>
+ <node id="2825291271" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7142861" lon="-74.0012846"/>
+ <node id="2825291287" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7143037" lon="-74.0012876"/>
+ <node id="2825291295" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7143152" lon="-74.0012911"/>
+ <node id="2825291403" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7143265" lon="-74.0012956"/>
+ <node id="2825291416" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7143429" lon="-74.0013045"/>
+ <node id="2825291424" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7143534" lon="-74.0013118"/>
+ <node id="2825291425" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7143537" lon="-74.0016757"/>
+ <node id="2825291434" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7143666" lon="-74.0016648"/>
+ <node id="2825291436" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7143668" lon="-74.0013232"/>
+ <node id="2825291439" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7143760" lon="-74.0016552"/>
+ <node id="2825291447" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:10Z" user="MarcelHerault" uid="860575" lat="40.7143930" lon="-74.0016336"/>
+ <node id="2825291452" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:11Z" user="MarcelHerault" uid="860575" lat="40.7144010" lon="-74.0013669"/>
+ <node id="2825291453" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:11Z" user="MarcelHerault" uid="860575" lat="40.7144040" lon="-74.0016153"/>
+ <node id="2825291454" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:11Z" user="MarcelHerault" uid="860575" lat="40.7144084" lon="-74.0013811"/>
+ <node id="2825291455" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:11Z" user="MarcelHerault" uid="860575" lat="40.7144105" lon="-74.0016023"/>
+ <node id="2825291457" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:11Z" user="MarcelHerault" uid="860575" lat="40.7144171" lon="-74.0014014"/>
+ <node id="2825291458" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:11Z" user="MarcelHerault" uid="860575" lat="40.7144218" lon="-74.0015723"/>
+ <node id="2825291459" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:11Z" user="MarcelHerault" uid="860575" lat="40.7144219" lon="-74.0014156"/>
+ <node id="2825291462" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:11Z" user="MarcelHerault" uid="860575" lat="40.7144275" lon="-74.0014376"/>
+ <node id="2825291464" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:11Z" user="MarcelHerault" uid="860575" lat="40.7144303" lon="-74.0014528"/>
+ <node id="2825291466" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:11Z" user="MarcelHerault" uid="860575" lat="40.7144326" lon="-74.0015141"/>
+ <node id="2825291467" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:11Z" user="MarcelHerault" uid="860575" lat="40.7144328" lon="-74.0014757"/>
+ <node id="2825291468" visible="true" version="2" changeset="23345804" timestamp="2014-06-30T12:38:11Z" user="MarcelHerault" uid="860575" lat="40.7144333" lon="-74.0014913"/>
+ <node id="3170956958" visible="true" version="1" changeset="26600890" timestamp="2014-11-06T19:53:54Z" user="robgeb" uid="336460" lat="40.7137966" lon="-74.0000847"/>
+ <node id="3170956959" visible="true" version="1" changeset="26600890" timestamp="2014-11-06T19:53:54Z" user="robgeb" uid="336460" lat="40.7138209" lon="-73.9999794"/>
+ <node id="3170956960" visible="true" version="1" changeset="26600890" timestamp="2014-11-06T19:53:54Z" user="robgeb" uid="336460" lat="40.7138626" lon="-74.0001112"/>
+ <node id="3170957161" visible="true" version="1" changeset="26600890" timestamp="2014-11-06T19:53:54Z" user="robgeb" uid="336460" lat="40.7138869" lon="-74.0000059"/>
+ <node id="3234401381" visible="true" version="1" changeset="27459692" timestamp="2014-12-14T14:41:46Z" user="robgeb" uid="336460" lat="40.7137615" lon="-73.9997681"/>
+ <node id="3234401382" visible="true" version="1" changeset="27459692" timestamp="2014-12-14T14:41:46Z" user="robgeb" uid="336460" lat="40.7137647" lon="-73.9997181"/>
+ <node id="3234401383" visible="true" version="1" changeset="27459692" timestamp="2014-12-14T14:41:46Z" user="robgeb" uid="336460" lat="40.7137710" lon="-73.9998182"/>
+ <node id="3234401384" visible="true" version="1" changeset="27459692" timestamp="2014-12-14T14:41:46Z" user="robgeb" uid="336460" lat="40.7138005" lon="-73.9998571"/>
+ <node id="3234401385" visible="true" version="1" changeset="27459692" timestamp="2014-12-14T14:41:46Z" user="robgeb" uid="336460" lat="40.7138047" lon="-73.9995318"/>
+ <node id="3234401386" visible="true" version="1" changeset="27459692" timestamp="2014-12-14T14:41:46Z" user="robgeb" uid="336460" lat="40.7138764" lon="-73.9994345"/>
+ <node id="3234401387" visible="true" version="1" changeset="27459692" timestamp="2014-12-14T14:41:46Z" user="robgeb" uid="336460" lat="40.7139860" lon="-73.9999294"/>
+ <node id="3234401388" visible="true" version="1" changeset="27459692" timestamp="2014-12-14T14:41:46Z" user="robgeb" uid="336460" lat="40.7140973" lon="-73.9998918"/>
+ <node id="3567495119" visible="true" version="1" changeset="31681570" timestamp="2015-06-03T02:22:59Z" user="peace2" uid="119748" lat="40.7128427" lon="-74.0024344"/>
+ <node id="3567495121" visible="true" version="1" changeset="31681570" timestamp="2015-06-03T02:23:00Z" user="peace2" uid="119748" lat="40.7129976" lon="-74.0011733"/>
+ <node id="1773055856" visible="true" version="2" changeset="31681642" timestamp="2015-06-03T02:38:06Z" user="peace2" uid="119748" lat="40.7133520" lon="-73.9992473">
+  <tag k="access" v="private"/>
+  <tag k="barrier" v="gate"/>
+ </node>
+ <node id="530286753" visible="true" version="5" changeset="31681642" timestamp="2015-06-03T02:38:06Z" user="peace2" uid="119748" lat="40.7132654" lon="-73.9992371">
+  <tag k="access" v="private"/>
+  <tag k="barrier" v="gate"/>
+ </node>
+ <node id="3567503536" visible="true" version="1" changeset="31681642" timestamp="2015-06-03T02:47:26Z" user="peace2" uid="119748" lat="40.7128371" lon="-74.0024604"/>
+ <node id="3762820096" visible="true" version="1" changeset="34308542" timestamp="2015-09-28T17:05:57Z" user="robgeb" uid="336460" lat="40.7147078" lon="-74.0023753"/>
+ <node id="3762820109" visible="true" version="1" changeset="34308542" timestamp="2015-09-28T17:05:57Z" user="robgeb" uid="336460" lat="40.7148850" lon="-74.0015067"/>
+ <node id="3762820139" visible="true" version="1" changeset="34308542" timestamp="2015-09-28T17:05:57Z" user="robgeb" uid="336460" lat="40.7150800" lon="-74.0019272"/>
+ <node id="1253070857" visible="true" version="2" changeset="34308542" timestamp="2015-09-28T17:06:06Z" user="robgeb" uid="336460" lat="40.7157262" lon="-74.0035323"/>
+ <node id="1253070894" visible="true" version="2" changeset="34308542" timestamp="2015-09-28T17:06:06Z" user="robgeb" uid="336460" lat="40.7148095" lon="-74.0042870"/>
+ <node id="588455743" visible="true" version="5" changeset="34625576" timestamp="2015-10-14T04:51:52Z" user="SH17" uid="2591427" lat="40.7134337" lon="-73.9984854">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <way id="5672410" visible="true" version="4" changeset="3377489" timestamp="2009-12-15T08:19:29Z" user="NE2" uid="207745">
+  <nd ref="42425955"/>
+  <nd ref="42445783"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Baxter Street"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="New York, NY"/>
+  <tag k="tiger:name_base" v="Baxter"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:reviewed" v="no"/>
+  <tag k="tiger:separated" v="no"/>
+  <tag k="tiger:source" v="tiger_import_dch_v0.6_20070829"/>
+  <tag k="tiger:tlid" v="59660582"/>
+  <tag k="tiger:upload_uuid" v="bulk_upload.pl-397c8f83-0473-4656-90f7-dc47b612c209"/>
+ </way>
+ <way id="46332307" visible="true" version="2" changeset="7920187" timestamp="2011-04-20T20:41:02Z" user="JessAk71" uid="381909">
+  <nd ref="42430535"/>
+  <nd ref="1253070385"/>
+  <nd ref="42427281"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Duane Street"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="New York, NY"/>
+  <tag k="tiger:name_base" v="Duane"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:reviewed" v="no"/>
+  <tag k="tiger:separated" v="no"/>
+  <tag k="tiger:source" v="tiger_import_dch_v0.6_20070829"/>
+  <tag k="tiger:tlid" v="59660342:59660338:59662869:59659474"/>
+  <tag k="tiger:upload_uuid" v="bulk_upload.pl-397c8f83-0473-4656-90f7-dc47b612c209"/>
+  <tag k="tiger:zip_left" v="10013"/>
+  <tag k="tiger:zip_right" v="10013"/>
+ </way>
+ <way id="46332305" visible="true" version="4" changeset="11772076" timestamp="2012-06-01T21:35:45Z" user="Eliyak" uid="439046">
+  <nd ref="42443832"/>
+  <nd ref="1773055860"/>
+  <nd ref="42425953"/>
+  <nd ref="42444305"/>
+  <nd ref="1251908576"/>
+  <nd ref="42444310"/>
+  <nd ref="42427290"/>
+  <tag k="access" v="private"/>
+  <tag k="highway" v="service"/>
+  <tag k="name" v="Pearl Street"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="New York, NY"/>
+  <tag k="tiger:name_base" v="Pearl"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:reviewed" v="no"/>
+  <tag k="tiger:separated" v="no"/>
+  <tag k="tiger:source" v="tiger_import_dch_v0.6_20070829"/>
+  <tag k="tiger:tlid" v="59660410:59660595:59660604:59660609:59660575"/>
+  <tag k="tiger:upload_uuid" v="bulk_upload.pl-397c8f83-0473-4656-90f7-dc47b612c209"/>
+  <tag k="tiger:zip_left" v="10038"/>
+  <tag k="tiger:zip_right" v="10038"/>
+ </way>
+ <way id="46332303" visible="true" version="1" changeset="3377489" timestamp="2009-12-15T08:19:21Z" user="NE2" uid="207745">
+  <nd ref="42430540"/>
+  <nd ref="42430535"/>
+  <tag k="highway" v="service"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="New York, NY"/>
+  <tag k="tiger:name_base" v="Duane"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:reviewed" v="no"/>
+  <tag k="tiger:separated" v="no"/>
+  <tag k="tiger:source" v="tiger_import_dch_v0.6_20070829"/>
+  <tag k="tiger:tlid" v="59660342:59660338:59662869:59659474"/>
+  <tag k="tiger:upload_uuid" v="bulk_upload.pl-397c8f83-0473-4656-90f7-dc47b612c209"/>
+  <tag k="tiger:zip_left" v="10013"/>
+  <tag k="tiger:zip_right" v="10013"/>
+ </way>
+ <way id="66374787" visible="true" version="2" changeset="27459692" timestamp="2014-12-14T14:41:48Z" user="robgeb" uid="336460">
+  <nd ref="42425955"/>
+  <nd ref="42445783"/>
+  <nd ref="42445780"/>
+  <nd ref="42438038"/>
+  <nd ref="42435448"/>
+  <nd ref="42435440"/>
+  <nd ref="42435434"/>
+  <nd ref="3234401388"/>
+  <nd ref="42425955"/>
+  <tag k="ele" v="5"/>
+  <tag k="gnis:county_id" v="061"/>
+  <tag k="gnis:created" v="10/02/2008"/>
+  <tag k="gnis:feature_id" v="2500762"/>
+  <tag k="gnis:state_id" v="36"/>
+  <tag k="leisure" v="park"/>
+  <tag k="name" v="Columbus Park"/>
+  <tag k="source" v="local_knowledge"/>
+ </way>
+ <way id="109458133" visible="true" version="6" changeset="27459692" timestamp="2014-12-14T14:41:48Z" user="robgeb" uid="336460">
+  <nd ref="1253070652"/>
+  <nd ref="1253070767"/>
+  <nd ref="1253070683"/>
+  <nd ref="1253070639"/>
+  <nd ref="1253070652"/>
+  <tag k="building" v="apartments"/>
+  <tag k="building:colour" v="#C8B894"/>
+  <tag k="building:levels" v="25"/>
+  <tag k="building:part" v="yes"/>
+  <tag k="height" v="70"/>
+  <tag k="name" v="Chatham Towers I"/>
+  <tag k="nycdoitt:bin" v="1077439"/>
+  <tag k="roof:colour" v="#70756F"/>
+  <tag k="roof:material" v="concrete"/>
+  <tag k="roof:shape" v="flat"/>
+  <tag k="start_date" v="1965"/>
+ </way>
+ <way id="108153376" visible="true" version="4" changeset="27304169" timestamp="2014-12-07T03:11:33Z" user="emacsen" uid="74937">
+  <nd ref="1241256403"/>
+  <nd ref="1253070530"/>
+  <nd ref="1241256390"/>
+  <nd ref="1241256377"/>
+  <nd ref="1241256483"/>
+  <nd ref="1241256547"/>
+  <nd ref="1253070840"/>
+  <nd ref="1241256495"/>
+  <nd ref="1241256516"/>
+  <nd ref="1241256551"/>
+  <nd ref="1241256434"/>
+  <nd ref="1241256405"/>
+  <nd ref="1253071035"/>
+  <nd ref="1241256536"/>
+  <nd ref="1241256399"/>
+  <nd ref="1241256473"/>
+  <nd ref="1241256410"/>
+  <nd ref="1241256406"/>
+  <nd ref="1241256464"/>
+  <nd ref="1241256401"/>
+  <nd ref="1241256510"/>
+  <nd ref="1241256403"/>
+  <tag k="area" v="yes"/>
+  <tag k="name" v="Foley Square"/>
+  <tag k="source" v="bing"/>
+  <tag k="wikipedia" v="en:Foley Square"/>
+ </way>
+ <way id="109330337" visible="true" version="1" changeset="7911792" timestamp="2011-04-19T22:46:39Z" user="JessAk71" uid="381909">
+  <nd ref="1251908623"/>
+  <nd ref="42455588"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="109330346" visible="true" version="1" changeset="7911792" timestamp="2011-04-19T22:46:40Z" user="JessAk71" uid="381909">
+  <nd ref="1251908576"/>
+  <nd ref="1251908578"/>
+  <nd ref="1251908577"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="109330336" visible="true" version="4" changeset="22336752" timestamp="2014-05-14T16:19:30Z" user="ediyes" uid="1240849">
+  <nd ref="1251908606"/>
+  <nd ref="1251908623"/>
+  <nd ref="1251908593"/>
+  <nd ref="2858256223"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="109458097" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:50Z" user="JessAk71" uid="381909">
+  <nd ref="1253070618"/>
+  <nd ref="1253070749"/>
+  <nd ref="1253070671"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="109458101" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:51Z" user="JessAk71" uid="381909">
+  <nd ref="1241256377"/>
+  <nd ref="1253070999"/>
+  <nd ref="1253070448"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="109458117" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:55Z" user="JessAk71" uid="381909">
+  <nd ref="1253070422"/>
+  <nd ref="1253071035"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="109458119" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:55Z" user="JessAk71" uid="381909">
+  <nd ref="1253070840"/>
+  <nd ref="1253070385"/>
+  <nd ref="1253070749"/>
+  <nd ref="42427278"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="109458127" visible="true" version="1" changeset="7920187" timestamp="2011-04-20T20:40:57Z" user="JessAk71" uid="381909">
+  <nd ref="1253070448"/>
+  <nd ref="42430535"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="40956098" visible="true" version="8" changeset="11911422" timestamp="2012-06-16T06:45:39Z" user="Umbugbene" uid="567034">
+  <nd ref="42427278"/>
+  <nd ref="1251908606"/>
+  <nd ref="1253070618"/>
+  <nd ref="42427281"/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="cycleway" v="lane"/>
+  <tag k="hgv" v="destination"/>
+  <tag k="highway" v="secondary"/>
+  <tag k="name" v="Centre Street"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="New York, NY"/>
+  <tag k="tiger:name_base" v="Centre"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:separated" v="no"/>
+  <tag k="tiger:source" v="tiger_import_dch_v0.6_20070829"/>
+  <tag k="tiger:tlid" v="59653780:59653788:59653789:59660330:59660328:59662006:59660579:59660567:59660432:59660429:59660407"/>
+  <tag k="tiger:upload_uuid" v="bulk_upload.pl-397c8f83-0473-4656-90f7-dc47b612c209"/>
+  <tag k="tiger:zip_left" v="10013"/>
+ </way>
+ <way id="161026132" visible="true" version="1" changeset="11412471" timestamp="2012-04-25T08:55:58Z" user="robgeb" uid="336460">
+  <nd ref="1730318423"/>
+  <nd ref="1730318399"/>
+  <nd ref="1730318413"/>
+  <nd ref="1730318412"/>
+  <nd ref="1730318423"/>
+  <tag k="landuse" v="residential"/>
+ </way>
+ <way id="5673526" visible="true" version="9" changeset="31681757" timestamp="2015-06-03T02:58:21Z" user="peace2" uid="119748">
+  <nd ref="42455588"/>
+  <nd ref="42459682"/>
+  <nd ref="42444305"/>
+  <tag k="access" v="private"/>
+  <tag k="highway" v="service"/>
+  <tag k="name" v="Cardinal Hayes Place"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="New York, NY"/>
+  <tag k="tiger:name_base" v="Cardinal Hayes"/>
+  <tag k="tiger:name_type" v="Pl"/>
+  <tag k="tiger:reviewed" v="no"/>
+ </way>
+ <way id="46116332" visible="true" version="7" changeset="31681570" timestamp="2015-06-03T02:23:00Z" user="peace2" uid="119748">
+  <nd ref="1773055865"/>
+  <nd ref="1773055869"/>
+  <nd ref="1773055867"/>
+  <nd ref="1773055856"/>
+  <nd ref="1773055859"/>
+  <nd ref="1773055860"/>
+  <nd ref="3567495121"/>
+  <nd ref="1773055857"/>
+  <nd ref="1773055858"/>
+  <nd ref="1773055863"/>
+  <tag k="access" v="private"/>
+  <tag k="hgv" v="destination"/>
+  <tag k="highway" v="service"/>
+  <tag k="name" v="Park Row"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="New York, NY"/>
+  <tag k="tiger:name_base" v="Park"/>
+  <tag k="tiger:name_type" v="Row"/>
+  <tag k="tiger:reviewed" v="no"/>
+ </way>
+ <way id="5671166" visible="true" version="31" changeset="31681750" timestamp="2015-06-03T02:56:55Z" user="peace2" uid="119748">
+  <nd ref="588455743"/>
+  <nd ref="1773047068"/>
+  <nd ref="1773047070"/>
+  <nd ref="530286753"/>
+  <nd ref="534992385"/>
+  <nd ref="42443832"/>
+  <nd ref="588751599"/>
+  <nd ref="1773055861"/>
+  <nd ref="1773055862"/>
+  <tag k="access" v="private"/>
+  <tag k="highway" v="service"/>
+  <tag k="name" v="Park Row"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="New York, NY"/>
+  <tag k="tiger:name_base" v="Park"/>
+  <tag k="tiger:name_type" v="Row"/>
+  <tag k="tiger:reviewed" v="no"/>
+  <tag k="tiger:zip_left" v="10007"/>
+  <tag k="tiger:zip_left_1" v="10038"/>
+ </way>
+ <way id="109458103" visible="true" version="3" changeset="13329723" timestamp="2012-10-02T02:49:15Z" user="ajashton" uid="135329">
+  <nd ref="1253070812"/>
+  <nd ref="1253070857"/>
+  <nd ref="1253070814"/>
+  <nd ref="1253070686"/>
+  <nd ref="1253070839"/>
+  <nd ref="1253070808"/>
+  <nd ref="1253071019"/>
+  <nd ref="1253070758"/>
+  <nd ref="1253070448"/>
+  <nd ref="1253070793"/>
+  <nd ref="1253070804"/>
+  <nd ref="1253070894"/>
+  <nd ref="1253070461"/>
+  <nd ref="1253070812"/>
+  <tag k="source" v="bing"/>
+ </way>
+ <way id="5671172" visible="true" version="20" changeset="34308542" timestamp="2015-09-28T17:06:03Z" user="robgeb" uid="336460">
+  <nd ref="42427281"/>
+  <nd ref="1253070422"/>
+  <nd ref="42427290"/>
+  <nd ref="1253071031"/>
+  <nd ref="3762820096"/>
+  <nd ref="42427300"/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="cycleway" v="lane"/>
+  <tag k="hgv" v="destination"/>
+  <tag k="highway" v="secondary"/>
+  <tag k="name" v="Centre Street"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="New York, NY"/>
+  <tag k="tiger:name_base" v="Centre"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:zip_left" v="10013"/>
+ </way>
+ <way id="194923776" visible="true" version="1" changeset="14186622" timestamp="2012-12-07T13:46:51Z" user="JaLooNz" uid="741163">
+  <nd ref="42445466"/>
+  <nd ref="1253070826"/>
+  <nd ref="1253071045"/>
+  <nd ref="42444331"/>
+  <nd ref="1253070999"/>
+  <nd ref="42430535"/>
+  <nd ref="1253070671"/>
+  <nd ref="42427278"/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="cycleway" v="lane"/>
+  <tag k="cycleway:left" v="lane"/>
+  <tag k="hgv" v="destination"/>
+  <tag k="highway" v="secondary"/>
+  <tag k="name" v="Lafayette Street"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="New York, NY"/>
+  <tag k="tiger:name_base" v="Lafayette"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:reviewed" v="no"/>
+ </way>
+ <way id="194923798" visible="true" version="4" changeset="34308542" timestamp="2015-09-28T17:06:06Z" user="robgeb" uid="336460">
+  <nd ref="42445466"/>
+  <nd ref="42427300"/>
+  <nd ref="3762820139"/>
+  <nd ref="3762820109"/>
+  <nd ref="1253070985"/>
+  <nd ref="42447266"/>
+  <nd ref="42452820"/>
+  <nd ref="1251908577"/>
+  <nd ref="42425955"/>
+  <nd ref="3234401388"/>
+  <nd ref="42435434"/>
+  <nd ref="3234401386"/>
+  <nd ref="1773055865"/>
+  <tag k="hgv" v="local"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Worth Street"/>
+  <tag k="oneway" v="no"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="New York, NY"/>
+  <tag k="tiger:name_base" v="Worth"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:zip_left" v="10013"/>
+ </way>
+ <way id="214744070" visible="true" version="3" changeset="22734445" timestamp="2014-06-04T13:59:28Z" user="robgeb" uid="336460">
+  <nd ref="2242203931"/>
+  <nd ref="2242203942"/>
+  <nd ref="2242203938"/>
+  <nd ref="2242203953"/>
+  <nd ref="2242203951"/>
+  <nd ref="2242204080"/>
+  <nd ref="2242204090"/>
+  <nd ref="2242204224"/>
+  <nd ref="2242204236"/>
+  <nd ref="2242204281"/>
+  <nd ref="2825366541"/>
+  <nd ref="2825366581"/>
+  <nd ref="1241256531"/>
+  <nd ref="1241256442"/>
+  <nd ref="1241256498"/>
+  <nd ref="2242203980"/>
+  <nd ref="1241256529"/>
+  <nd ref="1241256515"/>
+  <nd ref="2825366438"/>
+  <nd ref="2242203933"/>
+  <nd ref="2242203931"/>
+  <tag k="building:colour" v="#F4ECBB"/>
+  <tag k="building:part" v="yes"/>
+  <tag k="height" v="107"/>
+  <tag k="roof:colour" v="#A79476"/>
+ </way>
+ <way id="311447409" visible="true" version="2" changeset="27459692" timestamp="2014-12-14T14:41:47Z" user="robgeb" uid="336460">
+  <nd ref="3170956960"/>
+  <nd ref="3170957161"/>
+  <nd ref="3170956959"/>
+  <nd ref="3170956958"/>
+  <nd ref="3170956960"/>
+  <tag k="building:colour" v="#C8B894"/>
+  <tag k="building:part" v="yes"/>
+  <tag k="height" v="76"/>
+  <tag k="roof:colour" v="#70756F"/>
+  <tag k="roof:material" v="concrete"/>
+  <tag k="roof:shape" v="flat"/>
+ </way>
+ <way id="274787667" visible="true" version="1" changeset="21728647" timestamp="2014-04-16T12:55:22Z" user="robgeb" uid="336460">
+  <nd ref="2794558128"/>
+  <nd ref="2794558124"/>
+  <nd ref="1253070621"/>
+  <nd ref="1253070774"/>
+  <nd ref="1253070390"/>
+  <nd ref="1253070481"/>
+  <nd ref="1253070967"/>
+  <nd ref="1253070744"/>
+  <nd ref="1253070717"/>
+  <nd ref="1253070958"/>
+  <nd ref="2794558128"/>
+  <tag k="building:colour" v="beige"/>
+  <tag k="building:part" v="yes"/>
+  <tag k="height" v="110"/>
+  <tag k="roof:material" v="concrete"/>
+  <tag k="roof:shape" v="flat"/>
+ </way>
+ <way id="274787668" visible="true" version="1" changeset="21728647" timestamp="2014-04-16T12:55:22Z" user="robgeb" uid="336460">
+  <nd ref="2794558117"/>
+  <nd ref="2794558118"/>
+  <nd ref="2794558115"/>
+  <nd ref="2794558113"/>
+  <nd ref="2794558111"/>
+  <nd ref="2794558108"/>
+  <nd ref="2794558107"/>
+  <nd ref="2794558101"/>
+  <nd ref="2794558099"/>
+  <nd ref="2794558096"/>
+  <nd ref="2794558095"/>
+  <nd ref="2794558094"/>
+  <nd ref="2794558098"/>
+  <nd ref="2794558100"/>
+  <nd ref="2794558102"/>
+  <nd ref="2794558104"/>
+  <nd ref="2794558105"/>
+  <nd ref="2794558109"/>
+  <nd ref="2794558114"/>
+  <nd ref="2794558116"/>
+  <nd ref="2794558117"/>
+  <tag k="building:colour" v="gold"/>
+  <tag k="building:part" v="yes"/>
+  <tag k="height" v="180"/>
+  <tag k="roof:colour" v="gold"/>
+  <tag k="roof:height" v="3"/>
+  <tag k="roof:shape" v="pyramidal"/>
+ </way>
+ <way id="274787669" visible="true" version="1" changeset="21728647" timestamp="2014-04-16T12:55:23Z" user="robgeb" uid="336460">
+  <nd ref="2794558127"/>
+  <nd ref="2794558123"/>
+  <nd ref="2794558086"/>
+  <nd ref="2794558090"/>
+  <nd ref="2794558127"/>
+  <tag k="building:colour" v="beige"/>
+  <tag k="building:part" v="yes"/>
+  <tag k="height" v="125"/>
+  <tag k="roof:material" v="concrete"/>
+  <tag k="roof:shape" v="flat"/>
+ </way>
+ <way id="274787670" visible="true" version="1" changeset="21728647" timestamp="2014-04-16T12:55:23Z" user="robgeb" uid="336460">
+  <nd ref="2794558119"/>
+  <nd ref="2794558110"/>
+  <nd ref="2794558093"/>
+  <nd ref="2794558103"/>
+  <nd ref="2794558119"/>
+  <tag k="building:colour" v="beige"/>
+  <tag k="building:part" v="yes"/>
+  <tag k="height" v="170"/>
+  <tag k="roof:colour" v="gold"/>
+  <tag k="roof:height" v="30"/>
+  <tag k="roof:shape" v="flat"/>
+ </way>
+ <way id="274787671" visible="true" version="1" changeset="21728647" timestamp="2014-04-16T12:55:23Z" user="robgeb" uid="336460">
+  <nd ref="2794558125"/>
+  <nd ref="2794558121"/>
+  <nd ref="2794558089"/>
+  <nd ref="2794558092"/>
+  <nd ref="2794558125"/>
+  <tag k="building:part" v="yes"/>
+  <tag k="height" v="172"/>
+  <tag k="roof:colour" v="gold"/>
+  <tag k="roof:height" v="30"/>
+  <tag k="roof:shape" v="pyramidal"/>
+ </way>
+ <way id="274787672" visible="true" version="1" changeset="21728647" timestamp="2014-04-16T12:55:23Z" user="robgeb" uid="336460">
+  <nd ref="2794558126"/>
+  <nd ref="2794558122"/>
+  <nd ref="2794558088"/>
+  <nd ref="2794558091"/>
+  <nd ref="2794558126"/>
+  <tag k="building:colour" v="beige"/>
+  <tag k="building:part" v="yes"/>
+  <tag k="height" v="142"/>
+  <tag k="roof:material" v="concrete"/>
+  <tag k="roof:shape" v="flat"/>
+ </way>
+ <way id="278105948" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:23Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825290855"/>
+  <nd ref="2825290847"/>
+  <nd ref="2825290846"/>
+  <nd ref="2825290845"/>
+  <nd ref="2825290843"/>
+  <nd ref="2825290841"/>
+  <nd ref="2825290840"/>
+  <nd ref="2825290839"/>
+  <nd ref="2825290838"/>
+  <nd ref="2825290835"/>
+  <nd ref="2825290834"/>
+  <nd ref="2825290836"/>
+  <nd ref="2825290837"/>
+  <nd ref="2825290848"/>
+  <nd ref="2825290850"/>
+  <nd ref="2825290852"/>
+  <nd ref="2825290853"/>
+  <nd ref="2825290854"/>
+  <nd ref="2825290856"/>
+  <nd ref="2825290857"/>
+  <nd ref="2825290860"/>
+  <nd ref="2825290861"/>
+  <nd ref="2825290863"/>
+  <nd ref="2825290865"/>
+  <nd ref="2825290866"/>
+  <nd ref="2825290868"/>
+  <nd ref="2825290869"/>
+  <nd ref="2825290873"/>
+  <nd ref="2825290875"/>
+  <nd ref="2825290874"/>
+  <nd ref="2825290880"/>
+  <nd ref="2825290877"/>
+  <nd ref="2825290879"/>
+  <nd ref="2825290871"/>
+  <nd ref="2825291203"/>
+  <nd ref="2825291043"/>
+  <nd ref="2825291020"/>
+  <nd ref="2825291009"/>
+  <nd ref="2825291002"/>
+  <nd ref="2825290855"/>
+  <tag k="addr:city" v="New York"/>
+  <tag k="addr:housenumber" v="500"/>
+  <tag k="addr:postcode" v="10007"/>
+  <tag k="addr:state" v="NY"/>
+  <tag k="addr:street" v="Pearl Street"/>
+  <tag k="amenity" v="courthouse"/>
+  <tag k="building" v="public"/>
+  <tag k="building:levels" v="27"/>
+  <tag k="height" v="125"/>
+  <tag k="name" v="Daniel Patrick Moynihan United States Courthouse"/>
+  <tag k="nycdoitt:bin" v="1087763"/>
+  <tag k="wikipedia" v="en:Daniel Patrick Moynihan United States Courthouse"/>
+ </way>
+ <way id="278106026" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:32Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825291434"/>
+  <nd ref="2825291439"/>
+  <nd ref="2825291447"/>
+  <nd ref="2825291453"/>
+  <nd ref="2825291455"/>
+  <nd ref="2825291458"/>
+  <nd ref="2825291498"/>
+  <nd ref="2825291488"/>
+  <nd ref="2825291484"/>
+  <nd ref="2825291440"/>
+  <nd ref="2825291425"/>
+  <nd ref="2825291434"/>
+ </way>
+ <way id="278106027" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:32Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825291088"/>
+  <nd ref="2825291205"/>
+  <nd ref="2825291223"/>
+  <nd ref="2825291230"/>
+  <nd ref="2825291247"/>
+  <nd ref="2825291255"/>
+  <nd ref="2825291266"/>
+  <nd ref="2825291289"/>
+  <nd ref="2825291220"/>
+  <nd ref="2825291095"/>
+  <nd ref="2825291080"/>
+  <nd ref="2825291051"/>
+  <nd ref="2825291088"/>
+ </way>
+ <way id="278106028" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:32Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825291466"/>
+  <nd ref="2825291468"/>
+  <nd ref="2825291467"/>
+  <nd ref="2825291464"/>
+  <nd ref="2825291462"/>
+  <nd ref="2825291459"/>
+  <nd ref="2825291457"/>
+  <nd ref="2825291454"/>
+  <nd ref="2825291452"/>
+  <nd ref="2825291482"/>
+  <nd ref="2825291617"/>
+  <nd ref="2825291619"/>
+  <nd ref="2825291603"/>
+  <nd ref="2825291466"/>
+ </way>
+ <way id="278106029" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:32Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825291047"/>
+  <nd ref="2825291045"/>
+  <nd ref="2825291046"/>
+  <nd ref="2825291048"/>
+  <nd ref="2825291049"/>
+  <nd ref="2825291053"/>
+  <nd ref="2825291057"/>
+  <nd ref="2825291060"/>
+  <nd ref="2825291068"/>
+  <nd ref="2825291038"/>
+  <nd ref="2825291011"/>
+  <nd ref="2825291010"/>
+  <nd ref="2825291017"/>
+  <nd ref="2825291047"/>
+ </way>
+ <way id="278106030" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:32Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825291085"/>
+  <nd ref="2825291076"/>
+  <nd ref="2825291070"/>
+  <nd ref="2825291061"/>
+  <nd ref="2825291055"/>
+  <nd ref="2825291022"/>
+  <nd ref="2825291024"/>
+  <nd ref="2825291028"/>
+  <nd ref="2825291030"/>
+  <nd ref="2825291035"/>
+  <nd ref="2825291089"/>
+  <nd ref="2825291210"/>
+  <nd ref="2825291093"/>
+  <nd ref="2825291085"/>
+ </way>
+ <way id="278106031" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:32Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825291436"/>
+  <nd ref="2825291424"/>
+  <nd ref="2825291416"/>
+  <nd ref="2825291403"/>
+  <nd ref="2825291295"/>
+  <nd ref="2825291287"/>
+  <nd ref="2825291271"/>
+  <nd ref="2825291257"/>
+  <nd ref="2825291249"/>
+  <nd ref="2825291229"/>
+  <nd ref="2825291408"/>
+  <nd ref="2825291422"/>
+  <nd ref="2825291463"/>
+  <nd ref="2825291436"/>
+ </way>
+ <way id="278106032" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:32Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825291445"/>
+  <nd ref="2825291438"/>
+  <nd ref="2825291003"/>
+  <nd ref="2825291001"/>
+  <nd ref="2825290884"/>
+  <nd ref="2825290886"/>
+  <nd ref="2825291071"/>
+  <nd ref="2825291074"/>
+  <nd ref="2825291204"/>
+  <nd ref="2825291232"/>
+  <nd ref="2825291637"/>
+  <nd ref="2825291624"/>
+  <nd ref="2825291639"/>
+  <nd ref="2825291638"/>
+  <nd ref="2825291677"/>
+  <nd ref="2825291675"/>
+  <nd ref="2825291674"/>
+  <nd ref="2825291655"/>
+  <nd ref="2825291445"/>
+ </way>
+ <way id="278106033" visible="true" version="1" changeset="22032153" timestamp="2014-04-29T21:30:32Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825291426"/>
+  <nd ref="2825291420"/>
+  <nd ref="2825291417"/>
+  <nd ref="2825291410"/>
+  <nd ref="2825291402"/>
+  <nd ref="2825291294"/>
+  <nd ref="2825291279"/>
+  <nd ref="2825291265"/>
+  <nd ref="2825291252"/>
+  <nd ref="2825291244"/>
+  <nd ref="2825291233"/>
+  <nd ref="2825291226"/>
+  <nd ref="2825291214"/>
+  <nd ref="2825291207"/>
+  <nd ref="2825291097"/>
+  <nd ref="2825291092"/>
+  <nd ref="2825291094"/>
+  <nd ref="2825291098"/>
+  <nd ref="2825291208"/>
+  <nd ref="2825291219"/>
+  <nd ref="2825291227"/>
+  <nd ref="2825291235"/>
+  <nd ref="2825291246"/>
+  <nd ref="2825291258"/>
+  <nd ref="2825291272"/>
+  <nd ref="2825291285"/>
+  <nd ref="2825291297"/>
+  <nd ref="2825291406"/>
+  <nd ref="2825291413"/>
+  <nd ref="2825291418"/>
+  <nd ref="2825291421"/>
+  <nd ref="2825291427"/>
+  <nd ref="2825291426"/>
+ </way>
+ <way id="278106014" visible="true" version="2" changeset="26600890" timestamp="2014-11-06T19:53:55Z" user="robgeb" uid="336460">
+  <nd ref="2825290842"/>
+  <nd ref="2825290849"/>
+  <nd ref="2825290851"/>
+  <nd ref="2825290844"/>
+  <nd ref="2825290842"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:colour" v="#60615C"/>
+  <tag k="height" v="4.8"/>
+  <tag k="nycdoitt:bin" v="1088321"/>
+  <tag k="roof:colour" v="#70756F"/>
+  <tag k="roof:material" v="concrete"/>
+  <tag k="roof:shape" v="flat"/>
+ </way>
+ <way id="278112870" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:05Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825366454"/>
+  <nd ref="2825366451"/>
+  <nd ref="2825366477"/>
+  <nd ref="2825366488"/>
+  <nd ref="2825366502"/>
+  <nd ref="2825366496"/>
+  <nd ref="2825366454"/>
+  <tag k="addr:housenumber" v="122"/>
+  <tag k="addr:postcode" v="10007"/>
+  <tag k="addr:street" v="Park Row"/>
+  <tag k="building" v="yes"/>
+  <tag k="height" v="18.5"/>
+  <tag k="nycdoitt:bin" v="1001679"/>
+ </way>
+ <way id="278112876" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:05Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825366511"/>
+  <nd ref="2825366514"/>
+  <nd ref="2825366562"/>
+  <nd ref="2825366573"/>
+  <nd ref="2825366555"/>
+  <nd ref="2825366553"/>
+  <nd ref="2825366506"/>
+  <nd ref="2825366494"/>
+  <nd ref="2825366497"/>
+  <nd ref="2825366511"/>
+  <tag k="addr:housenumber" v="20"/>
+  <tag k="addr:postcode" v="10007"/>
+  <tag k="addr:street" v="Cardinal Hayes Place"/>
+  <tag k="building" v="yes"/>
+  <tag k="height" v="16.1"/>
+  <tag k="nycdoitt:bin" v="1001676"/>
+ </way>
+ <way id="278112877" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:05Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825366493"/>
+  <nd ref="2825366499"/>
+  <nd ref="2825366500"/>
+  <nd ref="2825366503"/>
+  <nd ref="2825366512"/>
+  <nd ref="2825366508"/>
+  <nd ref="2825366485"/>
+  <nd ref="2825366482"/>
+  <nd ref="2825366491"/>
+  <nd ref="2825366501"/>
+  <nd ref="2825366509"/>
+  <nd ref="2825366532"/>
+  <nd ref="2825366528"/>
+  <nd ref="2825366547"/>
+  <nd ref="2825366535"/>
+  <nd ref="2825366537"/>
+  <nd ref="2825366515"/>
+  <nd ref="2825366505"/>
+  <nd ref="2825366507"/>
+  <nd ref="2825366498"/>
+  <nd ref="2825366486"/>
+  <nd ref="2825366473"/>
+  <nd ref="2825366481"/>
+  <nd ref="2825366468"/>
+  <nd ref="2825366469"/>
+  <nd ref="2825366467"/>
+  <nd ref="2825366464"/>
+  <nd ref="2825366466"/>
+  <nd ref="2825366462"/>
+  <nd ref="2825366465"/>
+  <nd ref="2825366461"/>
+  <nd ref="2825366457"/>
+  <nd ref="2825366459"/>
+  <nd ref="2825366456"/>
+  <nd ref="2825366454"/>
+  <nd ref="2825366496"/>
+  <nd ref="2825366504"/>
+  <nd ref="2825366492"/>
+  <nd ref="2825366493"/>
+  <tag k="addr:city" v="New York"/>
+  <tag k="addr:housenumber" v="150"/>
+  <tag k="addr:state" v="NY"/>
+  <tag k="addr:street" v="Park Row"/>
+  <tag k="amenity" v="prison"/>
+  <tag k="building" v="yes"/>
+  <tag k="ele" v="8"/>
+  <tag k="gnis:county_name" v="New York"/>
+  <tag k="gnis:feature_id" v="2060431"/>
+  <tag k="height" v="44.2"/>
+  <tag k="name" v="Metropolitan Correctional Center"/>
+  <tag k="nycdoitt:bin" v="1001678"/>
+  <tag k="short_name" v="MCC"/>
+  <tag k="source" v="USGS Geonames"/>
+  <tag k="wikipedia" v="en:Metropolitan Correctional Center, New York City"/>
+ </way>
+ <way id="278112880" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:06Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825366490"/>
+  <nd ref="2825366495"/>
+  <nd ref="2825366484"/>
+  <nd ref="2825366489"/>
+  <nd ref="2825366483"/>
+  <nd ref="2825366533"/>
+  <nd ref="2825366540"/>
+  <nd ref="2825366543"/>
+  <nd ref="2825366546"/>
+  <nd ref="2825366556"/>
+  <nd ref="2825366560"/>
+  <nd ref="2825366550"/>
+  <nd ref="2825366562"/>
+  <nd ref="2825366514"/>
+  <nd ref="2825366511"/>
+  <nd ref="2825366497"/>
+  <nd ref="2825366490"/>
+  <tag k="addr:housenumber" v="10"/>
+  <tag k="addr:postcode" v="10007"/>
+  <tag k="addr:street" v="Cardinal Hayes Place"/>
+  <tag k="amenity" v="place_of_worship"/>
+  <tag k="building" v="yes"/>
+  <tag k="height" v="22.1"/>
+  <tag k="name" v="Saint Andrews"/>
+  <tag k="nycdoitt:bin" v="1001675"/>
+  <tag k="religion" v="christian"/>
+ </way>
+ <way id="278112884" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:06Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825366493"/>
+  <nd ref="2825366516"/>
+  <nd ref="2825366520"/>
+  <nd ref="2825366499"/>
+  <nd ref="2825366493"/>
+  <tag k="building" v="yes"/>
+  <tag k="layer" v="1"/>
+ </way>
+ <way id="278112888" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:07Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825366475"/>
+  <nd ref="2825366472"/>
+  <nd ref="2825366522"/>
+  <nd ref="2825366519"/>
+  <nd ref="2825366475"/>
+  <tag k="building" v="yes"/>
+  <tag k="layer" v="1"/>
+ </way>
+ <way id="278112889" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:07Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825366590"/>
+  <nd ref="2825366803"/>
+  <nd ref="2825366805"/>
+  <nd ref="2825366806"/>
+  <nd ref="2825366809"/>
+  <nd ref="2825366808"/>
+  <nd ref="2825366807"/>
+  <nd ref="2825366801"/>
+  <nd ref="2825366597"/>
+  <nd ref="2825366592"/>
+  <nd ref="2825366590"/>
+ </way>
+ <way id="278112890" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:07Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825366576"/>
+  <nd ref="2825366578"/>
+  <nd ref="2825366577"/>
+  <nd ref="2825366575"/>
+  <nd ref="2825366585"/>
+  <nd ref="2825366588"/>
+  <nd ref="2825366591"/>
+  <nd ref="2825366596"/>
+  <nd ref="2825366569"/>
+  <nd ref="2825366548"/>
+  <nd ref="2825366557"/>
+  <nd ref="2825366559"/>
+  <nd ref="2825366561"/>
+  <nd ref="2825366564"/>
+  <nd ref="2825366566"/>
+  <nd ref="2825366568"/>
+  <nd ref="2825366570"/>
+  <nd ref="2825366572"/>
+  <nd ref="2825366574"/>
+  <nd ref="2825366576"/>
+ </way>
+ <way id="278112891" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:07Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825366516"/>
+  <nd ref="2825366513"/>
+  <nd ref="2825366519"/>
+  <nd ref="2825366522"/>
+  <nd ref="2825366587"/>
+  <nd ref="2825366563"/>
+  <nd ref="2825366580"/>
+  <nd ref="2825366551"/>
+  <nd ref="2825366600"/>
+  <nd ref="2825366802"/>
+  <nd ref="2825366804"/>
+  <nd ref="2825366813"/>
+  <nd ref="2825366812"/>
+  <nd ref="2825366814"/>
+  <nd ref="2825366811"/>
+  <nd ref="2825366810"/>
+  <nd ref="2825366599"/>
+  <nd ref="2825366595"/>
+  <nd ref="2825366594"/>
+  <nd ref="2825366589"/>
+  <nd ref="2825366586"/>
+  <nd ref="2825366584"/>
+  <nd ref="2825366579"/>
+  <nd ref="2825366571"/>
+  <nd ref="2825366565"/>
+  <nd ref="2825366558"/>
+  <nd ref="2825366554"/>
+  <nd ref="2825366552"/>
+  <nd ref="2825366549"/>
+  <nd ref="2825366545"/>
+  <nd ref="2825366544"/>
+  <nd ref="2825366542"/>
+  <nd ref="2825366539"/>
+  <nd ref="2825366536"/>
+  <nd ref="2825366534"/>
+  <nd ref="2825366531"/>
+  <nd ref="2825366529"/>
+  <nd ref="2825366526"/>
+  <nd ref="2825366524"/>
+  <nd ref="2825366523"/>
+  <nd ref="2825366525"/>
+  <nd ref="2825366527"/>
+  <nd ref="2825366530"/>
+  <nd ref="2825366518"/>
+  <nd ref="2825366521"/>
+  <nd ref="2825366520"/>
+  <nd ref="2825366516"/>
+ </way>
+ <way id="278112892" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:07Z" user="Rub21_nycbuildings" uid="1781294">
+  <nd ref="2825366598"/>
+  <nd ref="2825366593"/>
+  <nd ref="2825366567"/>
+  <nd ref="2825366582"/>
+  <nd ref="2825366583"/>
+  <nd ref="2825366598"/>
+ </way>
+ <way id="278112867" visible="true" version="3" changeset="22734445" timestamp="2014-06-04T13:59:28Z" user="robgeb" uid="336460">
+  <nd ref="1241256515"/>
+  <nd ref="1241256531"/>
+  <nd ref="2825366581"/>
+  <nd ref="2825366541"/>
+  <nd ref="2242204281"/>
+  <nd ref="2242204236"/>
+  <nd ref="2242204224"/>
+  <nd ref="2242204090"/>
+  <nd ref="2242204080"/>
+  <nd ref="2242203951"/>
+  <nd ref="2242203953"/>
+  <nd ref="2242203938"/>
+  <nd ref="2242203942"/>
+  <nd ref="2242203931"/>
+  <nd ref="2242203933"/>
+  <nd ref="2825366438"/>
+  <nd ref="1241256515"/>
+  <tag k="addr:housenumber" v="1"/>
+  <tag k="addr:postcode" v="10007"/>
+  <tag k="addr:street" v="Centre Street"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="Manhattan Municipal Building"/>
+  <tag k="NRHP" v="72000879"/>
+  <tag k="nycdoitt:bin" v="1001394"/>
+  <tag k="start_date" v="1914"/>
+  <tag k="wikipedia" v="en:Manhattan Municipal Building"/>
+ </way>
+ <way id="214744073" visible="true" version="3" changeset="22734445" timestamp="2014-06-04T13:59:29Z" user="robgeb" uid="336460">
+  <nd ref="2242204181"/>
+  <nd ref="2242204221"/>
+  <nd ref="2242204218"/>
+  <nd ref="2242204246"/>
+  <nd ref="2242204251"/>
+  <nd ref="2242204263"/>
+  <nd ref="2242204265"/>
+  <nd ref="2242204234"/>
+  <nd ref="2242204229"/>
+  <nd ref="2242204157"/>
+  <nd ref="2242204163"/>
+  <nd ref="2242204051"/>
+  <nd ref="2242204009"/>
+  <nd ref="2242204013"/>
+  <nd ref="2242203976"/>
+  <nd ref="2242203975"/>
+  <nd ref="2242203959"/>
+  <nd ref="2242203990"/>
+  <nd ref="2242203994"/>
+  <nd ref="2242204077"/>
+  <nd ref="2242204074"/>
+  <nd ref="2242204181"/>
+  <tag k="building:colour" v="#F4ECBB"/>
+  <tag k="building:part" v="yes"/>
+  <tag k="height" v="123"/>
+  <tag k="roof:colour" v="#A79476"/>
+ </way>
+ <way id="214744076" visible="true" version="2" changeset="22734445" timestamp="2014-06-04T13:59:29Z" user="robgeb" uid="336460">
+  <nd ref="2242204283"/>
+  <nd ref="2242204274"/>
+  <nd ref="2242204270"/>
+  <nd ref="2242204278"/>
+  <nd ref="2242204283"/>
+  <tag k="building:colour" v="#F4ECBB"/>
+  <tag k="building:part" v="yes"/>
+  <tag k="height" v="113"/>
+  <tag k="min_height" v="106.38"/>
+  <tag k="roof:height" v="3.5"/>
+  <tag k="roof:material" v="copper"/>
+  <tag k="roof:shape" v="pyramidal"/>
+ </way>
+ <way id="214744084" visible="true" version="2" changeset="22734445" timestamp="2014-06-04T13:59:30Z" user="robgeb" uid="336460">
+  <nd ref="2242204129"/>
+  <nd ref="2242204138"/>
+  <nd ref="2242204165"/>
+  <nd ref="2242204186"/>
+  <nd ref="2242204199"/>
+  <nd ref="2242204195"/>
+  <nd ref="2242204172"/>
+  <nd ref="2242204150"/>
+  <nd ref="2242204129"/>
+  <tag k="building:colour" v="#F4ECBB"/>
+  <tag k="building:part" v="yes"/>
+  <tag k="height" v="144"/>
+  <tag k="min_height" v="135"/>
+  <tag k="roof:colour" v="#F4ECBB"/>
+  <tag k="roof:height" v="6"/>
+  <tag k="roof:shape" v="pyramidal"/>
+ </way>
+ <way id="214744086" visible="true" version="2" changeset="22734445" timestamp="2014-06-04T13:59:30Z" user="robgeb" uid="336460">
+  <nd ref="2242204121"/>
+  <nd ref="2242204128"/>
+  <nd ref="2242204160"/>
+  <nd ref="2242204192"/>
+  <nd ref="2242204208"/>
+  <nd ref="2242204204"/>
+  <nd ref="2242204174"/>
+  <nd ref="2242204137"/>
+  <nd ref="2242204121"/>
+  <tag k="building:colour" v="#F4ECBB"/>
+  <tag k="building:part" v="yes"/>
+  <tag k="height" v="135"/>
+  <tag k="min_height" v="123"/>
+  <tag k="roof:colour" v="#F4ECBB"/>
+ </way>
+ <way id="290522363" visible="true" version="1" changeset="23345804" timestamp="2014-06-30T12:38:09Z" user="MarcelHerault" uid="860575">
+  <nd ref="2825291458"/>
+  <nd ref="2825291455"/>
+  <nd ref="2825291453"/>
+  <nd ref="2825291447"/>
+  <nd ref="2825291439"/>
+  <nd ref="2825291434"/>
+  <nd ref="2825291425"/>
+  <nd ref="2940444886"/>
+  <nd ref="2940444885"/>
+  <nd ref="2940444884"/>
+  <nd ref="2825291266"/>
+  <nd ref="2825291255"/>
+  <nd ref="2825291247"/>
+  <nd ref="2825291230"/>
+  <nd ref="2825291223"/>
+  <nd ref="2825291205"/>
+  <nd ref="2825291088"/>
+  <nd ref="2940444882"/>
+  <nd ref="2825291068"/>
+  <nd ref="2825291060"/>
+  <nd ref="2825291057"/>
+  <nd ref="2825291053"/>
+  <nd ref="2825291049"/>
+  <nd ref="2825291048"/>
+  <nd ref="2825291046"/>
+  <nd ref="2825291045"/>
+  <nd ref="2825291047"/>
+  <nd ref="2940444881"/>
+  <nd ref="2825291055"/>
+  <nd ref="2825291061"/>
+  <nd ref="2825291070"/>
+  <nd ref="2825291076"/>
+  <nd ref="2825291085"/>
+  <nd ref="2825291093"/>
+  <nd ref="2825291210"/>
+  <nd ref="2940444883"/>
+  <nd ref="2825291249"/>
+  <nd ref="2825291271"/>
+  <nd ref="2825291287"/>
+  <nd ref="2825291295"/>
+  <nd ref="2825291403"/>
+  <nd ref="2825291416"/>
+  <nd ref="2825291424"/>
+  <nd ref="2825291436"/>
+  <nd ref="2940444887"/>
+  <nd ref="2940444888"/>
+  <nd ref="2825291452"/>
+  <nd ref="2825291454"/>
+  <nd ref="2825291457"/>
+  <nd ref="2825291459"/>
+  <nd ref="2825291462"/>
+  <nd ref="2825291464"/>
+  <nd ref="2825291467"/>
+  <nd ref="2825291468"/>
+  <nd ref="2825291466"/>
+  <nd ref="2940444889"/>
+  <nd ref="2825291458"/>
+ </way>
+ <way id="317200680" visible="true" version="1" changeset="27459692" timestamp="2014-12-14T14:41:47Z" user="robgeb" uid="336460">
+  <nd ref="3234401388"/>
+  <nd ref="3234401387"/>
+  <nd ref="3234401384"/>
+  <nd ref="3234401383"/>
+  <nd ref="3234401381"/>
+  <nd ref="3234401382"/>
+  <nd ref="3234401385"/>
+  <nd ref="3234401386"/>
+  <tag k="highway" v="service"/>
+  <tag k="service" v="driveway"/>
+ </way>
+ <way id="278112882" visible="true" version="3" changeset="31681642" timestamp="2015-06-03T02:47:26Z" user="peace2" uid="119748">
+  <nd ref="2825366472"/>
+  <nd ref="2825366475"/>
+  <nd ref="2825366478"/>
+  <nd ref="2825366476"/>
+  <nd ref="2825366477"/>
+  <nd ref="2825366451"/>
+  <nd ref="3567495119"/>
+  <nd ref="3567503536"/>
+  <nd ref="2825366442"/>
+  <nd ref="2825366446"/>
+  <nd ref="2825366447"/>
+  <nd ref="2825366445"/>
+  <nd ref="2825366449"/>
+  <nd ref="2825366450"/>
+  <nd ref="2825366455"/>
+  <nd ref="2825366463"/>
+  <nd ref="2825366471"/>
+  <nd ref="2825366474"/>
+  <nd ref="2825366480"/>
+  <nd ref="2825366479"/>
+  <nd ref="2825366470"/>
+  <nd ref="2825366472"/>
+  <tag k="building" v="yes"/>
+  <tag k="height" v="44.0"/>
+  <tag k="nycdoitt:bin" v="1001680"/>
+ </way>
+ <way id="351038800" visible="true" version="1" changeset="31681750" timestamp="2015-06-03T02:56:55Z" user="peace2" uid="119748">
+  <nd ref="42437746"/>
+  <nd ref="1730318417"/>
+  <nd ref="1251908564"/>
+  <nd ref="42443832"/>
+  <tag k="access" v="private"/>
+  <tag k="highway" v="service"/>
+  <tag k="name" v="Pearl Street"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="New York, NY"/>
+  <tag k="tiger:name_base" v="Pearl"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:reviewed" v="no"/>
+  <tag k="tiger:zip_left" v="10038"/>
+  <tag k="tiger:zip_right" v="10038"/>
+ </way>
+ <relation id="3148774" visible="true" version="1" changeset="17384006" timestamp="2013-08-17T13:35:39Z" user="emacsen" uid="74937">
+  <member type="way" ref="109458133" role="outer"/>
+  <member type="way" ref="109458121" role="outer"/>
+  <tag k="name" v="Chatham Towers"/>
+  <tag k="type" v="multipolygon"/>
+ </relation>
+ <relation id="2624106" visible="true" version="8" changeset="32195993" timestamp="2015-06-25T02:40:20Z" user="ebrelsford" uid="19239">
+  <member type="way" ref="46165815" role=""/>
+  <member type="way" ref="5671457" role=""/>
+  <member type="way" ref="226040985" role=""/>
+  <member type="way" ref="46165814" role=""/>
+  <member type="way" ref="226040986" role=""/>
+  <member type="way" ref="127690685" role=""/>
+  <member type="way" ref="275016228" role=""/>
+  <member type="way" ref="275016230" role=""/>
+  <member type="way" ref="275016229" role=""/>
+  <member type="way" ref="5670026" role=""/>
+  <member type="way" ref="46116314" role=""/>
+  <member type="way" ref="194923776" role=""/>
+  <member type="way" ref="194923798" role=""/>
+  <member type="way" ref="222299242" role=""/>
+  <member type="way" ref="194923781" role=""/>
+  <member type="way" ref="5670613" role=""/>
+  <member type="way" ref="5671717" role=""/>
+  <member type="way" ref="5671204" role=""/>
+  <member type="way" ref="165731797" role=""/>
+  <member type="way" ref="5671593" role=""/>
+  <member type="way" ref="195745918" role=""/>
+  <member type="way" ref="5671587" role=""/>
+  <member type="way" ref="46116312" role=""/>
+  <member type="way" ref="46160090" role=""/>
+  <member type="way" ref="25026341" role=""/>
+  <member type="way" ref="46160083" role=""/>
+  <member type="way" ref="5671458" role=""/>
+  <member type="way" ref="196117059" role=""/>
+  <member type="way" ref="127690687" role=""/>
+  <member type="way" ref="46165813" role=""/>
+  <member type="way" ref="222299268" role=""/>
+  <member type="way" ref="196116979" role=""/>
+  <member type="way" ref="127691875" role=""/>
+  <member type="way" ref="25564368" role=""/>
+  <member type="way" ref="356140737" role=""/>
+  <member type="way" ref="186050002" role=""/>
+  <member type="way" ref="125525171" role=""/>
+  <member type="way" ref="125525165" role=""/>
+  <member type="way" ref="127691874" role=""/>
+  <member type="way" ref="194923769" role=""/>
+  <member type="way" ref="125527384" role=""/>
+  <member type="way" ref="5670579" role=""/>
+  <member type="way" ref="226040987" role=""/>
+  <member type="way" ref="46348787" role=""/>
+  <member type="way" ref="5673424" role=""/>
+  <member type="way" ref="125524912" role=""/>
+  <member type="way" ref="196117014" role=""/>
+  <tag k="name" v="NYCB - M22"/>
+  <tag k="network" v="NYC Transit"/>
+  <tag k="operator" v="MTA"/>
+  <tag k="ref" v="M22"/>
+  <tag k="route" v="bus"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="2853424" visible="true" version="2" changeset="22032670" timestamp="2014-04-29T22:03:08Z" user="Rub21_nycbuildings" uid="1781294">
+  <member type="way" ref="214744070" role="part"/>
+  <member type="way" ref="214744075" role="part"/>
+  <member type="way" ref="214744073" role="part"/>
+  <member type="way" ref="214744074" role="part"/>
+  <member type="way" ref="214744071" role="part"/>
+  <member type="way" ref="214744072" role="part"/>
+  <member type="way" ref="214744081" role="part"/>
+  <member type="way" ref="214744077" role="part"/>
+  <member type="way" ref="214744087" role="part"/>
+  <member type="way" ref="214744089" role="part"/>
+  <member type="way" ref="214744085" role="part"/>
+  <member type="way" ref="214744090" role="part"/>
+  <member type="way" ref="214744080" role="part"/>
+  <member type="way" ref="214744082" role="part"/>
+  <member type="way" ref="214744086" role="part"/>
+  <member type="way" ref="214744084" role="part"/>
+  <member type="way" ref="214744076" role="part"/>
+  <member type="way" ref="214744078" role="part"/>
+  <tag k="name" v="Manhattan Municipal Building"/>
+  <tag k="type" v="building"/>
+ </relation>
+ <relation id="2447382" visible="true" version="3" changeset="34308542" timestamp="2015-09-28T17:06:03Z" user="robgeb" uid="336460">
+  <member type="way" ref="109458103" role="outer"/>
+  <member type="way" ref="372732569" role="inner"/>
+  <member type="way" ref="372732572" role="inner"/>
+  <member type="way" ref="372732578" role="inner"/>
+  <member type="way" ref="372732552" role="inner"/>
+  <member type="way" ref="250269529" role="inner"/>
+  <member type="way" ref="250269567" role="inner"/>
+  <member type="way" ref="75363907" role="inner"/>
+  <tag k="area" v="yes"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="type" v="multipolygon"/>
+ </relation>
+ <relation id="2632957" visible="true" version="14" changeset="34624793" timestamp="2015-10-14T02:24:35Z" user="SH17" uid="2591427">
+  <member type="way" ref="25026341" role=""/>
+  <member type="way" ref="46160083" role=""/>
+  <member type="way" ref="46160090" role=""/>
+  <member type="way" ref="46116312" role=""/>
+  <member type="way" ref="5671587" role=""/>
+  <member type="way" ref="25564482" role=""/>
+  <member type="way" ref="25564592" role=""/>
+  <member type="way" ref="5671166" role=""/>
+  <member type="way" ref="196116989" role=""/>
+  <member type="way" ref="5672971" role=""/>
+  <member type="way" ref="195745925" role=""/>
+  <member type="way" ref="309148658" role=""/>
+  <member type="way" ref="309148659" role=""/>
+  <member type="way" ref="46154285" role=""/>
+  <member type="way" ref="165775865" role=""/>
+  <member type="way" ref="165775306" role=""/>
+  <member type="way" ref="222299242" role=""/>
+  <member type="way" ref="46116332" role=""/>
+  <member type="way" ref="165774923" role=""/>
+  <member type="way" ref="165774924" role=""/>
+  <member type="way" ref="165733924" role=""/>
+  <member type="way" ref="186050002" role=""/>
+  <member type="way" ref="221157083" role=""/>
+  <member type="way" ref="375165664" role=""/>
+  <member type="way" ref="375165501" role=""/>
+  <member type="way" ref="375165666" role=""/>
+  <member type="way" ref="196117089" role=""/>
+  <member type="way" ref="196117086" role=""/>
+  <member type="way" ref="195745912" role=""/>
+  <member type="way" ref="68668531" role=""/>
+  <member type="way" ref="194933371" role=""/>
+  <member type="way" ref="196117041" role=""/>
+  <member type="way" ref="353220112" role=""/>
+  <member type="way" ref="353220115" role=""/>
+  <member type="way" ref="196117039" role=""/>
+  <member type="way" ref="195745914" role=""/>
+  <member type="way" ref="5671774" role=""/>
+  <member type="way" ref="276670360" role=""/>
+  <member type="way" ref="165781912" role=""/>
+  <member type="way" ref="165781913" role=""/>
+  <member type="way" ref="165777951" role=""/>
+  <member type="way" ref="165777635" role=""/>
+  <member type="way" ref="165777255" role=""/>
+  <member type="way" ref="165777194" role=""/>
+  <member type="way" ref="165777195" role=""/>
+  <member type="way" ref="112116234" role=""/>
+  <member type="way" ref="112116236" role=""/>
+  <member type="way" ref="40709921" role=""/>
+  <member type="way" ref="349873702" role=""/>
+  <member type="way" ref="5670594" role=""/>
+  <member type="way" ref="5672203" role=""/>
+  <member type="way" ref="5672198" role=""/>
+  <tag k="name" v="NYCB - M103"/>
+  <tag k="network" v="NYC Transit"/>
+  <tag k="operator" v="MTA"/>
+  <tag k="ref" v="M103"/>
+  <tag k="route" v="bus"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="2636378" visible="true" version="9" changeset="32395616" timestamp="2015-07-03T17:48:22Z" user="ipc" uid="3033482">
+  <member type="relation" ref="2636365" role="route"/>
+  <member type="relation" ref="2636371" role="route"/>
+  <member type="relation" ref="2636372" role="route"/>
+  <member type="relation" ref="2632937" role="route"/>
+  <member type="relation" ref="2632938" role="route"/>
+  <member type="relation" ref="2636375" role="route"/>
+  <member type="relation" ref="2632942" role="route"/>
+  <member type="relation" ref="2632958" role="route"/>
+  <member type="relation" ref="2636366" role="route"/>
+  <member type="relation" ref="2636370" role="route"/>
+  <member type="relation" ref="2624103" role="route"/>
+  <member type="relation" ref="2624104" role="route"/>
+  <member type="relation" ref="2632934" role="route"/>
+  <member type="relation" ref="2632935" role="route"/>
+  <member type="relation" ref="2624105" role="route"/>
+  <member type="relation" ref="2624106" role="route"/>
+  <member type="relation" ref="2624107" role="route"/>
+  <member type="relation" ref="2632936" role="route"/>
+  <member type="relation" ref="2624128" role="route"/>
+  <member type="relation" ref="2624129" role="route"/>
+  <member type="relation" ref="2624150" role="route"/>
+  <member type="relation" ref="2255524" role="route"/>
+  <member type="relation" ref="2254126" role="route"/>
+  <member type="relation" ref="2255494" role="route"/>
+  <member type="relation" ref="2636373" role="route"/>
+  <member type="relation" ref="2632939" role="route"/>
+  <member type="relation" ref="2632940" role="route"/>
+  <member type="relation" ref="2632941" role="route"/>
+  <member type="relation" ref="2636377" role="route"/>
+  <member type="relation" ref="2636367" role="route"/>
+  <member type="relation" ref="2636368" role="route"/>
+  <member type="relation" ref="2636369" role="route"/>
+  <member type="relation" ref="2632957" role="route"/>
+  <member type="relation" ref="2632931" role="route"/>
+  <member type="relation" ref="2632932" role="route"/>
+  <member type="relation" ref="2632933" role="route"/>
+  <member type="node" ref="2724131830" role=""/>
+  <tag k="name" v="New York City Buses (Manhattan)"/>
+  <tag k="operator" v="Metropolitan Transportation Authority"/>
+  <tag k="route_master" v="bus"/>
+  <tag k="type" v="route_master"/>
+ </relation>
+ <relation id="3696430" visible="true" version="4" changeset="23350620" timestamp="2014-06-30T14:40:17Z" user="MarcelHerault" uid="860575">
+  <member type="way" ref="278106032" role="outer"/>
+  <member type="way" ref="278106033" role="inner"/>
+  <member type="way" ref="278106028" role="inner"/>
+  <member type="way" ref="278106029" role="inner"/>
+  <member type="way" ref="278106030" role="inner"/>
+  <member type="way" ref="278106031" role="inner"/>
+  <member type="way" ref="278106026" role="inner"/>
+  <member type="way" ref="278106027" role="inner"/>
+  <tag k="addr:city" v="New York"/>
+  <tag k="addr:housename" v="New York County Courthouse"/>
+  <tag k="addr:housenumber" v="60"/>
+  <tag k="addr:postcode" v="10007"/>
+  <tag k="addr:state" v="NY"/>
+  <tag k="addr:street" v="Centre Street"/>
+  <tag k="amenity" v="courthouse"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:part" v="yes"/>
+  <tag k="ele" v="6"/>
+  <tag k="gnis:feature_id" v="2060437"/>
+  <tag k="height" v="44"/>
+  <tag k="name" v="New York State Supreme Court"/>
+  <tag k="name:fr" v="Cour suprême de New York"/>
+  <tag k="nycdoitt:bin" v="1085748"/>
+  <tag k="roof:colour" v="#A48276"/>
+  <tag k="type" v="multipolygon"/>
+  <tag k="wikipedia" v="en:New York Supreme Court"/>
+ </relation>
+ <relation id="3696564" visible="true" version="1" changeset="22032670" timestamp="2014-04-29T22:03:07Z" user="Rub21_nycbuildings" uid="1781294">
+  <member type="way" ref="278112891" role="outer"/>
+  <member type="way" ref="278112889" role="inner"/>
+  <member type="way" ref="278112890" role="inner"/>
+  <member type="way" ref="278112892" role="inner"/>
+  <tag k="building" v="yes"/>
+  <tag k="height" v="20"/>
+  <tag k="name" v="Thurgood Marshall United States Courthouse"/>
+  <tag k="NRHP" v="87001596"/>
+  <tag k="nycdoitt:bin" v="1001677"/>
+  <tag k="start_date" v="1936"/>
+  <tag k="type" v="multipolygon"/>
+  <tag k="wikipedia" v="en:Thurgood Marshall United States Courthouse"/>
+ </relation>
+ <relation id="2632958" visible="true" version="8" changeset="29908088" timestamp="2015-04-01T15:49:38Z" user="Bruce B" uid="634189">
+  <member type="way" ref="199927849" role=""/>
+  <member type="way" ref="195745916" role=""/>
+  <member type="way" ref="46201668" role=""/>
+  <member type="way" ref="231393430" role=""/>
+  <member type="way" ref="194923768" role=""/>
+  <member type="way" ref="5673410" role=""/>
+  <member type="way" ref="222299242" role=""/>
+  <member type="way" ref="46116332" role=""/>
+  <member type="way" ref="165774923" role=""/>
+  <member type="way" ref="165774924" role=""/>
+  <member type="way" ref="165733924" role=""/>
+  <member type="way" ref="186050002" role=""/>
+  <member type="way" ref="195745925" role=""/>
+  <member type="way" ref="196116989" role=""/>
+  <member type="way" ref="5671166" role=""/>
+  <member type="way" ref="25564592" role=""/>
+  <member type="way" ref="25564482" role=""/>
+  <member type="way" ref="5671587" role=""/>
+  <member type="way" ref="46116312" role=""/>
+  <member type="way" ref="46160090" role=""/>
+  <member type="way" ref="25026341" role=""/>
+  <member type="way" ref="195745917" role=""/>
+  <member type="way" ref="199927850" role=""/>
+  <member type="way" ref="5672646" role=""/>
+  <member type="way" ref="46211851" role=""/>
+  <member type="way" ref="32937066" role=""/>
+  <member type="way" ref="194923755" role=""/>
+  <member type="way" ref="46201655" role=""/>
+  <member type="way" ref="194923808" role=""/>
+  <member type="way" ref="68668521" role=""/>
+  <member type="way" ref="196117014" role=""/>
+  <member type="way" ref="125524912" role=""/>
+  <member type="way" ref="5673424" role=""/>
+  <member type="way" ref="46154289" role=""/>
+  <member type="way" ref="46154290" role=""/>
+  <member type="way" ref="46116326" role=""/>
+  <member type="way" ref="194923759" role=""/>
+  <member type="way" ref="196116978" role=""/>
+  <member type="way" ref="222299268" role=""/>
+  <member type="way" ref="46116329" role=""/>
+  <member type="way" ref="222299277" role=""/>
+  <member type="way" ref="222299272" role=""/>
+  <member type="way" ref="46171880" role=""/>
+  <member type="way" ref="46165812" role=""/>
+  <member type="way" ref="195743228" role=""/>
+  <member type="way" ref="195743189" role=""/>
+  <member type="way" ref="195743264" role=""/>
+  <member type="way" ref="222299273" role=""/>
+  <member type="way" ref="195743227" role=""/>
+  <member type="way" ref="5669013" role=""/>
+  <member type="way" ref="226193928" role=""/>
+  <member type="way" ref="195743195" role=""/>
+  <member type="way" ref="22928102" role=""/>
+  <member type="way" ref="46422586" role=""/>
+  <member type="way" ref="195743225" role=""/>
+  <member type="way" ref="5670189" role=""/>
+  <member type="way" ref="162041587" role=""/>
+  <member type="way" ref="194923807" role=""/>
+  <member type="way" ref="5670485" role=""/>
+  <member type="way" ref="222299248" role=""/>
+  <member type="way" ref="335935799" role=""/>
+  <member type="way" ref="194926839" role=""/>
+  <tag k="name" v="NYCB - M9"/>
+  <tag k="network" v="NYC Transit"/>
+  <tag k="operator" v="MTA"/>
+  <tag k="ref" v="M9"/>
+  <tag k="route" v="bus"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="3860484" visible="true" version="1" changeset="23345804" timestamp="2014-06-30T12:38:09Z" user="MarcelHerault" uid="860575">
+  <member type="way" ref="290522363" role="outer"/>
+  <member type="way" ref="278106033" role="inner"/>
+  <tag k="building:part" v="yes"/>
+  <tag k="height" v="46"/>
+  <tag k="roof:height" v="2"/>
+  <tag k="roof:material" v="copper"/>
+  <tag k="roof:shape" v="hipped"/>
+  <tag k="type" v="multipolygon"/>
+ </relation>
+</osm>

@@ -1,0 +1,10 @@
+1. Change config file:
+	i) experiment name
+	ii) output stat file
+	iii) graph density i.e. max short and long edges
+	iv) percent of pattern nodes
+	v) change fso-per-node
+2. run the test_extended_stat_collector.py script
+3. save/tune the two output graphs
+4. save the ..._config file
+5. save the screen output to ..._output.txt file

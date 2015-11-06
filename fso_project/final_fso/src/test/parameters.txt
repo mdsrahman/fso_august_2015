@@ -1,0 +1,14 @@
+# of FSOs	3-8
+# of edges	500 to 5 per node, short and long (# short = # long)
+
+# of potential	1000 nodes
+# gateways	5-15% of the size of the final graph.
+
+# of FSOs per gateway = 10.
+Link Capacity 10Gbps.
+Area:		500 x 500 m
+Coverage	50m radius
+Short links	50m
+% of sources	10-15%.
+# of patterns	200.
+Long link	1000m max

@@ -1,0 +1,43 @@
+#unless otherwise stated, all the distances are in meter
+#unless otherwise stated, all the link capacities are in Mbps
+
+#------global params: same for both map and synthetic graph------------
+[global]
+graphType: synthetic 
+seed: 101593
+experiment_name: se30_le5_f10_p10
+gateway_to_node_ratio: 0.01
+link_capacity: 1000.0
+fso_per_node: 10
+fso_per_gateway: 1000
+target_spacing: 5.0
+coverage_radius: 50.0
+
+output_statistics_file: ./output/se30_le5_f10_p10_stat.txt
+graph_output_folder: ./output/graphs
+
+max_short_edge_length: 50.0
+max_long_edge_length: 1000.0
+
+percent_of_pattern_nodes_in_avg_flow_calculation: 10
+number_of_pattern_in_avg_flow_calculation: 200
+
+ratio_of_max_added_nodes_in_step_4: 0.1
+
+#------params applicable to synthetic graph only------------
+[synthetic]
+no_of_samples: 2
+number_of_nodes: 1000
+max_x_coord: 500
+max_y_coord: 500
+max_short_edge_per_node:30
+max_long_edge_per_node: 5
+max_no_of_edges: 1000000
+
+
+
+
+
+
+
+
