@@ -56,6 +56,7 @@ class MapToGraphGenerator:
     self.node_bin = None
     self.node_x = None
     self.node_y = None
+    self.minimum_proximity = 5 #meter
     
     self.building_bin_x_interval =  100 #meter
     self.building_bin_y_interval = 100 #meter
@@ -219,12 +220,21 @@ class MapToGraphGenerator:
     for bid in self.building_x:
       bxs = list(self.building_x[bid])
       bys = list(self.building_y[bid])
+      last_x = -100
+      last_y = -100 
       for x,y in zip(bxs,bys):
         self.building_bin.put(bid, x, y)
-        self.node_bin.put(node_count,x,y)
-        node_count += 1
+        
+        dist_sq = (last_x - x)**2 + (last_y - y)**2
+        if dist_sq < self.minimum_proximity * self.minimum_proximity:
+          continue
         self.node_x.append(x)
         self.node_y.append(y)
+        self.node_bin.put(node_count,x,y)
+        node_count += 1
+        last_x = x
+        last_y = y
+        
         
   def gridRayTrace(self, x0, y0, x1, y1):
     '''
@@ -397,6 +407,7 @@ class MapToGraphGenerator:
     f.close()    
   
   def debugGenerateVisualGraph(self):
+    self.logger.info("@debugGeneateVisualGRaph....")
     patches = [] 
     for bid, bxs in self.building_x.iteritems():
       #print "bid:",i,"------------------------------" 
@@ -429,7 +440,7 @@ class MapToGraphGenerator:
     self.logger.info("Map File Path:"+str(self.mapFilePath))
     self.logger.info("Total Area:"+str(self.max_x)+" X "+str(self.max_y)+" meters")
     self.logger.info("Total Buildings:"+str(len(self.building_x)))
-    self.logger.info("Total Corner Points:"+str(len(self.node_x)))
+    self.logger.info("Total Nodes:"+str(len(self.node_x)))
     self.logger.info("Total Edges:"+str(self.edge_counter))
     
   def generateMapToGraph(self):
@@ -449,6 +460,7 @@ class MapToGraphGenerator:
     self.binBuilding()
     self.debugPrintSummary()
     self.calculateLOS()
+    self.debugPrintSummary()
     if self.small_map_debug:
       self.debugGenerateVisualGraph()
     self.debugPrintSummary()
