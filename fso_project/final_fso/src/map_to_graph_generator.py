@@ -195,6 +195,7 @@ class MapToGraphGenerator:
         self.building_y[bindx].append(y)
         self.max_x = max(self.max_x, x)
         self.max_y = max(self.max_y, y)
+    #task 1: save the coordinates in a file, don't delete the following until nodes are saved too
     del self.building_lat
     del self.building_lon
   
@@ -234,6 +235,7 @@ class MapToGraphGenerator:
         node_count += 1
         last_x = x
         last_y = y
+        #task 2: save the node latitude longitude in a file according to the index in node_x
         
         
   def gridRayTrace(self, x0, y0, x1, y1):
@@ -309,6 +311,7 @@ class MapToGraphGenerator:
         iv) using indices of iii, find all ray traced grids and hence buildings for intersections
         v) if does not intersect any buildings, save the edge with type
     '''
+    self.logger.info("@calculateLOS....")
     self.edge_counter = 0
     stat_node_pairs = 0
     f = open(self.outputFilePath,"w")
@@ -463,7 +466,7 @@ class MapToGraphGenerator:
     self.debugPrintSummary()
     if self.small_map_debug:
       self.debugGenerateVisualGraph()
-    self.debugPrintSummary()
+    
     #self.generateBinPairIntersections()
 
     
