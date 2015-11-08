@@ -33,16 +33,23 @@ class MapToGraphGenerator:
                          a node belongs to only one grid bin, but a building (bid) may belong to multiple bins
   '''
   def __init__(self, mapFilePath, 
-               outputFilePath, 
+               buildingOutputFilePath ,
+               graphOutputFilePath, 
                short_edge_length, 
                long_edge_length, 
+               edge_append_mode = False,
                small_map_debug = False):
     
     self.mapFilePath = mapFilePath
-    self.outputFilePath = outputFilePath
+    self.buildingOutputFilePath = buildingOutputFilePath 
+    self.graphOutputFilePath = graphOutputFilePath
+    
     self.long_edge_length = long_edge_length
     self.short_edge_length = short_edge_length
+    self.edge_append_mode = edge_append_mode
     self.small_map_debug = small_map_debug
+
+    
     self.small_graph_edge_list = []
     
     self.building_lat = None 
@@ -58,8 +65,8 @@ class MapToGraphGenerator:
     self.node_y = None
     self.minimum_proximity = 5 #meter
     
-    self.building_bin_x_interval =  100 #meter
-    self.building_bin_y_interval = 100 #meter
+    self.building_bin_x_interval =  50 #meter
+    self.building_bin_y_interval =  50 #meter
     self.builidng_bin_pair_intersections =  None
     self.edge_counter = 0
     
@@ -137,8 +144,11 @@ class MapToGraphGenerator:
               del blat_list[-1]
               blon_list = [lon[nid] for nid in refs]
               del blon_list[-1]
-              self.building_lat[osm_id] = blat_list
-              self.building_lon[osm_id] = blon_list
+              blat_list = [float(i) for i in blat_list]
+              blon_list = [float(i) for i in blon_list]
+              self.building_lat[osm_id] = list(blat_list)
+              self.building_lon[osm_id] = list(blon_list)
+              
               self.max_lat = max(blat_list+[self.max_lat])
               self.max_lon = max(blon_list+[self.max_lon])
               self.min_lat = min(blat_list+[self.min_lat])
@@ -159,8 +169,12 @@ class MapToGraphGenerator:
               del blat_list[-1]
               blon_list = [lon[nid] for nid in ways[way_id]]
               del blon_list[-1]
-              self.building_lat[osm_id] = blat_list
-              self.building_lon[osm_id] = blon_list
+              
+              blat_list = [float(i) for i in blat_list]
+              blon_list = [float(i) for i in blon_list]
+              self.building_lat[osm_id] = list(blat_list)
+              self.building_lon[osm_id] = list(blon_list)
+              
               self.max_lat = max(blat_list+[self.max_lat])
               self.max_lon = max(blon_list+[self.max_lon])
               self.min_lat = min(blat_list+[self.min_lat])
@@ -180,12 +194,15 @@ class MapToGraphGenerator:
     self.building_x = {}
     self.building_y = {}
     self.max_x = self.max_y = -float('inf')
-    
+    f = open(self.buildingOutputFilePath,"w")
+    f.write("BuildingID: lat,lon;....")
     for bindx, blats in self.building_lat.iteritems():
+      f.write("\n"+str(bindx)+" : ")
       self.building_x[bindx] = []
       self.building_y[bindx] = []
       blons = self.building_lon[bindx]
       for blat, blon in zip(blats, blons):
+        f.write(str(blat)+" , "+str(blon)+" ; ")
         xy = geopy.Point(blat,blon)
         x_ref = geopy.Point(self.min_lat, blon)
         y_ref = geopy.Point(blat, self.min_lon)
@@ -195,12 +212,53 @@ class MapToGraphGenerator:
         self.building_y[bindx].append(y)
         self.max_x = max(self.max_x, x)
         self.max_y = max(self.max_y, y)
+    f.close()
     #task 1: save the coordinates in a file, don't delete the following until nodes are saved too
-    del self.building_lat
-    del self.building_lon
+    #del self.building_lat
+    #del self.building_lon
   
+  
+  def loadNodeCoord(self):
+    '''
+    loads the nodes from the file and hence populate the following lists
+    
+    '''
+   
+    #--**************load nodes-***********************
+    with open(self.graphOutputFilePath,"r") as f:
+      self.node_lat = []
+      self.node_lon = []
+      next(f)
+      file_read_mode = 'load_node'
+      for line in f:
+        #21 : 40.7149461 , -74.0066863 ; 
+        if file_read_mode == 'load_node':
+          if line =='Edges\n' or line == 'Edges':
+            break
+          node_id, coords = line.split(':')
+          lat_lon =  coords.split(';')
+          lat, lon = lat_lon[0].split(',')
+          lat = float(lat)
+          lon = float(lon)
+          self.node_lat.append(lat)
+          self.node_lon.append(lon)
+          self.min_lat = min(self.min_lat, lat)
+          self.min_lon = min(self.min_lon, lon)
+    #now calculate the cartesian node-coords
+    self.node_x = []
+    self.node_y = []
+    for nlat,nlon in zip(self.node_lat,self.node_lon):
+      xy = geopy.Point(nlat,nlon)
+      x_ref = geopy.Point(self.min_lat, nlon)
+      y_ref = geopy.Point(nlat, self.min_lon)
+      x = geopy.distance.distance(xy, x_ref).m
+      y = geopy.distance.distance(xy, y_ref).m
+      self.node_x.append(x)
+      self.node_y.append(y)
+      self.max_x = max(self.max_x, x)
+      self.max_y = max(self.max_y, y)
       
-  def binBuilding(self):
+  def binBuildingAndNodes(self):
     '''
     bin the building for easier calculation of LOS between nodes
     bin the nodes in the node_bin
@@ -215,28 +273,50 @@ class MapToGraphGenerator:
                                   y_interval = self.building_bin_y_interval,
                                   max_x = self.max_x,
                                   max_y = self.max_y)
-    self.node_x = []
-    self.node_y = []
+    
+    
     node_count = 0
+    if not self.edge_append_mode:
+      self.node_x = []
+      self.node_y = []
+      f = open(self.graphOutputFilePath,"w")
+      f.write("Node Positions")
+      
+    else:
+      self.loadNodeCoord()
+      for x,y in zip(self.node_x, self.node_y):
+        self.node_bin.put(node_count,x,y)
+        node_count += 1
+      
     for bid in self.building_x:
       bxs = list(self.building_x[bid])
       bys = list(self.building_y[bid])
       last_x = -100
       last_y = -100 
+      corner_point_index = -1
       for x,y in zip(bxs,bys):
         self.building_bin.put(bid, x, y)
-        
-        dist_sq = (last_x - x)**2 + (last_y - y)**2
-        if dist_sq < self.minimum_proximity * self.minimum_proximity:
-          continue
-        self.node_x.append(x)
-        self.node_y.append(y)
-        self.node_bin.put(node_count,x,y)
-        node_count += 1
-        last_x = x
-        last_y = y
+        corner_point_index += 1
+        if not self.edge_append_mode:
+          dist_sq = (last_x - x)**2 + (last_y - y)**2
+          if dist_sq < self.minimum_proximity * self.minimum_proximity:
+            continue
+          
+          self.node_x.append(x)
+          self.node_y.append(y)
+          self.node_bin.put(node_count,x,y)
+          node_lat = self.building_lat[bid][corner_point_index]
+          node_lon = self.building_lon[bid][corner_point_index]
+          f.write("\n"+str(node_count)+" : "+str(node_lat)+" , "+str(node_lon)+" ; ")
+          
+          node_count += 1
+          last_x = x
+          last_y = y
         #task 2: save the node latitude longitude in a file according to the index in node_x
-        
+    if not self.edge_append_mode:
+      f.close()
+    del self.building_lat
+    del self.building_lon
         
   def gridRayTrace(self, x0, y0, x1, y1):
     '''
@@ -265,9 +345,39 @@ class MapToGraphGenerator:
       n -= 1 
     return visited_grids
 
+  def isOverlapping(self, bbox_1, bbox_2):
+    '''
+    check if two rectangles are overlapping:
+    bbox formats must be [xmin, ymin, xmax, ymax]
+    '''
+    l1_x = bbox_1[0]
+    l2_x = bbox_2[0]
+    r1_x = bbox_1[2]
+    r2_x = bbox_2[2]
+    
+    l1_y = bbox_1[3]
+    l2_y = bbox_2[3]
+    r1_y = bbox_1[1]
+    r2_y = bbox_2[1]
+    
+    
+    if l1_x > r2_x or l2_x > r1_x:
+      return False
+    if l1_y < r2_y or l2_y < r1_y:
+      return False
+    return True
+     
+
   def isIntersecting(self, x1,y1,x2,y2,xs,ys):
     line = shgm.LineString([(x1, y1), (x2, y2)])
     polygon = shgm.Polygon(zip(xs,ys))
+    
+    hasOverlap = self.isOverlapping(line.bounds, polygon.bounds)
+    
+    
+    if not hasOverlap:
+      return False
+    
     if line.crosses(polygon): # and not line.touches(polygon):
       return True
     else: 
@@ -285,6 +395,8 @@ class MapToGraphGenerator:
       if self.isIntersecting(x1, y1, x2, y2, bxs, bys):
         return False
     return True
+  
+  
   
   def getEdgeType(self,x1,y1,x2,y2):
     dist_sqrt = (x1-x2)**2 + (y1-y2)**2
@@ -314,25 +426,49 @@ class MapToGraphGenerator:
     self.logger.info("@calculateLOS....")
     self.edge_counter = 0
     stat_node_pairs = 0
-    f = open(self.outputFilePath,"w")
-    #save the node coords first
-    f.write("Node Positions")
-    for i,x in enumerate(self.node_x):
-      y = self.node_y[i]
-      f.write("\n"+str(i)+"\t"+str(x)+"\t"+str(y))
+    f = open(self.graphOutputFilePath,"a")
     
-    f.write("\nEdges")
+    if not self.edge_append_mode:
+      f.write("\nEdges")
     
     
     max_node_gx, max_node_gy = self.node_bin.getMaxGridCoords()
+    total_node_bin_count = (max_node_gx+1)* (max_node_gy+1)
+    processed_node_bin_count = 0
+    gx_start = gy_start = 0
+    gx_end =  max_node_gx+1
+    gy_end =  max_node_gy+1
+    #if edge_append_mode, then retrieve the last node under processing
+    if self.edge_append_mode:
+      with open(self.mapFilePath+'.grid_log.txt', 'r') as f1:
+        for line in f1:
+          if line =='\n':
+            break
+          gx_start, gy_start = line.split()
+          gx_start = int(gx_start)
+          gy_start = int(gy_start)
+      
+      
+    f2 = open(self.mapFilePath+'.grid_log.txt', 'a')
     
-    for gx in range(max_node_gx+1):
-      for gy in range(max_node_gy+1):
+    for gx in range(gx_start, gx_end):
+      for gy in range(gy_start, gy_end):
         
         #step 1: find edges between pairs of nodes of this bin
         
+        f2.write(str(gx)+"\t"+str(gy)+"\n")
+        f2.flush()
+        processed_node_bin_count += 1
         node_A = self.node_bin.getbyGridCoords(gx, gy)
         grid_node_count_A = len(node_A)
+        if grid_node_count_A == 0:
+          continue
+        self.logger.info("Current node bin index: "+str(gx)+" "+str(gy)+ " progress:"
+                            +str(processed_node_bin_count)
+                            +"/"
+                            +str(total_node_bin_count)
+                            + " #nodes in this bin: "+str(grid_node_count_A)
+                            + " elapsed-time(s): "+str(self.getElapsedTime()))
         
         building_list = self.building_bin.getbyGridCoords(gx, gy) #the buildings of this grid
         
@@ -344,10 +480,10 @@ class MapToGraphGenerator:
             x2 = self.node_x[ node_A[j] ]
             y2 = self.node_y[ node_A[j] ]
             stat_node_pairs +=1
-            if stat_node_pairs%100000 == 0:
-              self.logger.info("processed node pairs:"+str(stat_node_pairs)+
-                           " total edges so far:"+str(self.edge_counter)+
-                           " time:"+str(self.getElapsedTime()))
+#             if stat_node_pairs%100000 == 0:
+#               self.logger.info("processed node pairs:"+str(stat_node_pairs)+
+#                            " total edges so far:"+str(self.edge_counter)+
+#                            " time:"+str(self.getElapsedTime()))
             
             if not self.isEdge(x1, y1, x2, y2, building_list):
               continue
@@ -359,55 +495,98 @@ class MapToGraphGenerator:
               if self.small_map_debug:
                 self.small_graph_edge_list.append((node_A[i],node_A[j],edge_type))
                 
-        #step 2: find edges between pairs of nodes of this bin and bins left and down of it
+        #step 2: find edges between pairs of nodes of this bin and bins right and down of it
         #-------------------------------------------------------------------------------------------------------------
-        grid_offset_x = int(self.long_edge_length/self.building_bin_x_interval)
-        grid_offset_y = int(self.long_edge_length/self.building_bin_y_interval)
+        #grid_offset_x = int(self.long_edge_length/self.building_bin_x_interval)
+        #grid_offset_y = int(self.long_edge_length/self.building_bin_y_interval)
          
-        max_gx = min(max_node_gx, gx+grid_offset_x)
-        max_gy = min(max_node_gy, gy+grid_offset_y)
-         
-        for ngx in xrange(gx, max_gx+1):
-          for ngy in xrange(max_gy+1):
-            if ngx== gx and ngy<=gy:
+        neighboring_grids_x = []
+        neighboring_grids_y = []
+        
+        #---******** for the time being consider East, West-south, South and East-south if any--***********************
+        #--->East
+#         if gy+1<= max_node_gy:
+#           neighboring_grids_x.append(gx)
+#           neighboring_grids_y.append(gy+1)
+#           
+#         if gx+1<= max_node_gx:
+#           #--->West-south
+#           if gy- 1 >= 0:
+#             neighboring_grids_x.append(gx+1)
+#             neighboring_grids_y.append(gy-1)
+#             
+#           #---> South
+#           neighboring_grids_x.append(gx+1)
+#           neighboring_grids_y.append(gy)
+#           
+#           #--->East-south
+#           if gy+1<= max_node_gy:
+#             neighboring_grids_x.append(gx+1)
+#             neighboring_grids_y.append(gy+1)
+        #---------***************************************************************************************************
+        grid_offset = int(self.long_edge_length/self.building_bin_x_interval)
+        for i in range(gy+1, gy+grid_offset):
+          if i>max_node_gy:
+            break
+          neighboring_grids_x.append(gx)
+          neighboring_grids_y.append(i)
+          
+        for i in range(gx+1, gx+grid_offset):
+          if i > max_node_gx:
+            break
+          for j in range(gy-grid_offset,gy+grid_offset):
+            if j<0 or j==gy or j>max_node_gy:
               continue
-             
-            node_B = self.node_bin.getbyGridCoords(ngx, ngy)
-            grid_node_count_B = len(node_B)
-             
-            intersecting_grids = list(self.gridRayTrace(gx, gy, ngx, ngy))
-            bids = []
-            for bx,by in intersecting_grids:
-              bids.extend(self.building_bin.getbyGridCoords(bx, by))
-            bids = list( set(bids) ) #remove duplicates
-             
-            for i in xrange(grid_node_count_A):
-              x1 = self.node_x[ node_A[i] ]
-              y1 = self.node_y[ node_A[i] ]
-              for j in xrange(grid_node_count_B):
-                if node_B[j]>=len(self.node_x):
-                  print j
-                  print node_B
-                  print len(self.node_x)
-                  print "!!!!!!"
-                x2 = self.node_x[ node_B[j] ]
-                y2 = self.node_y[ node_B[j] ]
-                stat_node_pairs +=1
-                if stat_node_pairs%100000 == 0:
-                  self.logger.info("processed node pairs:"+str(stat_node_pairs)+
-                               " total edges so far:"+str(self.edge_counter)+
-                               " time:"+str(self.getElapsedTime()))
-                 
-                if not self.isEdge(x1, y1, x2, y2, bids):
-                  continue
-                #else check edge type----
-                edge_type = self.getEdgeType(x1, y1, x2, y2)
-                if  edge_type != 'non-edge':
-                  f.write("\n"+str(node_A[i])+"\t"+str(node_B[j])+"\t"+edge_type)
-                  self.edge_counter += 1
-                  if self.small_map_debug:
-                    self.small_graph_edge_list.append((node_A[i],node_B[j],edge_type))
-    f.close()    
+            neighboring_grids_x.append(i)
+            neighboring_grids_y.append(j)
+        
+        
+        for ngx, ngy in zip(neighboring_grids_x, neighboring_grids_y):
+          #check if the distance to the middle is less than long-edge  
+          dx1 = (gx+0.5)*self.building_bin_x_interval
+          dy1 = (gy+0.5)*self.building_bin_x_interval
+          
+          dx2 = (ngx+0.5)*self.building_bin_x_interval
+          dy2 = (ngy+0.5)*self.building_bin_x_interval
+          
+          dist_sq = (dx1 - dx2)**2 + (dy1 - dy2)**2
+          if dist_sq>self.long_edge_length*self.long_edge_length:
+            continue
+          
+          
+          node_B = self.node_bin.getbyGridCoords(ngx, ngy)
+          grid_node_count_B = len(node_B)
+          if grid_node_count_B == 0:
+            continue
+          intersecting_grids = list(self.gridRayTrace(gx, gy, ngx, ngy))
+          bids = []
+          for bx,by in intersecting_grids:
+            bids.extend(self.building_bin.getbyGridCoords(bx, by))
+          bids = list( set(bids) ) #remove duplicates
+           
+          for i in xrange(grid_node_count_A):
+            x1 = self.node_x[ node_A[i] ]
+            y1 = self.node_y[ node_A[i] ]
+            for j in xrange(grid_node_count_B):
+              x2 = self.node_x[ node_B[j] ]
+              y2 = self.node_y[ node_B[j] ]
+              stat_node_pairs +=1
+#               if stat_node_pairs%100000 == 0:
+#                 self.logger.info("processed node pairs:"+str(stat_node_pairs)+
+#                              " total edges so far:"+str(self.edge_counter)+
+#                              " time:"+str(self.getElapsedTime()))
+               
+              if not self.isEdge(x1, y1, x2, y2, bids):
+                continue
+              #else check edge type----
+              edge_type = self.getEdgeType(x1, y1, x2, y2)
+              if  edge_type != 'non-edge':
+                f.write("\n"+str(node_A[i])+"\t"+str(node_B[j])+"\t"+edge_type)
+                self.edge_counter += 1
+                if self.small_map_debug:
+                  self.small_graph_edge_list.append((node_A[i],node_B[j],edge_type))
+    f.close() 
+    f2.close()   
   
   def debugGenerateVisualGraph(self):
     self.logger.info("@debugGeneateVisualGRaph....")
@@ -460,7 +639,7 @@ class MapToGraphGenerator:
     '''
     self.parseMapFile()
     self.transformToCartesianCoord()
-    self.binBuilding()
+    self.binBuildingAndNodes()
     self.debugPrintSummary()
     self.calculateLOS()
     self.debugPrintSummary()
