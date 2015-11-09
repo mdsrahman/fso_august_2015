@@ -49,7 +49,8 @@ class MapToGraphGenerator:
     self.edge_append_mode = edge_append_mode
     self.small_map_debug = small_map_debug
 
-    
+    self.isEdgeCallCounter = 0
+    self.isIntersectingCallCounter = 0
     self.small_graph_edge_list = []
     
     self.building_lat = None 
@@ -75,7 +76,8 @@ class MapToGraphGenerator:
     self.logger.setLevel(logging.DEBUG)
     
     self.last_time = time.clock()
-  
+    self.intersectionCallDuration = 0
+    
   def getElapsedTime(self):
     '''
     return the time difference since the last of call of this method
@@ -368,16 +370,34 @@ class MapToGraphGenerator:
     return True
      
 
-  def isIntersecting(self, x1,y1,x2,y2,xs,ys):
+  def isIntersecting(self, x1,y1,x2,y2,xs,ys): 
+  
     line = shgm.LineString([(x1, y1), (x2, y2)])
     polygon = shgm.Polygon(zip(xs,ys))
     
-    hasOverlap = self.isOverlapping(line.bounds, polygon.bounds)
-    
-    
-    if not hasOverlap:
-      return False
-    
+#     bbox_1 = line.bounds
+#     bbox_2 = polygon.bounds
+#     l1_x = bbox_1[0]
+#     l2_x = bbox_2[0]
+#     r1_x = bbox_1[2]
+#     r2_x = bbox_2[2]
+#     
+#     l1_y = bbox_1[3]
+#     l2_y = bbox_2[3]
+#     r1_y = bbox_1[1]
+#     r2_y = bbox_2[1]
+#     
+# #     hasOverlap = self.isOverlapping(line.bounds, polygon.bounds)
+# #      
+# #      
+# #     if not hasOverlap:
+# #       return False
+#     
+#     if l1_x > r2_x or l2_x > r1_x:
+#       return False
+#     if l1_y < r2_y or l2_y < r1_y:
+#       return False
+      
     if line.crosses(polygon): # and not line.touches(polygon):
       return True
     else: 
@@ -389,12 +409,28 @@ class MapToGraphGenerator:
     given two cooridinates (x1,y1) and (x2,y2), checks wheter the line between these two points
     intersect with any of the buildings in building_list
     '''
+    #-----******************************-chage it back
+    self.isEdgeCallCounter += 1
+    #return False
+    #-----******************************-----------------
     for bid in building_list:
       bxs = self.building_x[bid]
       bys = self.building_y[bid]
-      if self.isIntersecting(x1, y1, x2, y2, bxs, bys):
+      self.isIntersectingCallCounter += 1
+      
+      l_time =  time.clock()
+      
+      intersection_status = self.isIntersecting(x1, y1, x2, y2, bxs, bys)
+      
+      e_time = time.clock() - l_time
+      self.intersectionCallDuration += e_time
+      if self.isIntersectingCallCounter%1000000==0:
+        avg_intersection_duration =  1.0*self.intersectionCallDuration/self.isIntersectingCallCounter
+        self.logger.info("avg intersection call duration: "+str(avg_intersection_duration))
+      if intersection_status:
         return False
-    return True
+    return True #<--
+    #return False
   
   
   
@@ -457,7 +493,7 @@ class MapToGraphGenerator:
         #step 1: find edges between pairs of nodes of this bin
         
         f2.write(str(gx)+"\t"+str(gy)+"\n")
-        f2.flush()
+        #f2.flush()
         processed_node_bin_count += 1
         node_A = self.node_bin.getbyGridCoords(gx, gy)
         grid_node_count_A = len(node_A)
@@ -468,7 +504,9 @@ class MapToGraphGenerator:
                             +"/"
                             +str(total_node_bin_count)
                             + " #nodes in this bin: "+str(grid_node_count_A)
-                            + " elapsed-time(s): "+str(self.getElapsedTime()))
+                            + " elapsed-time(s): "+str(self.getElapsedTime())
+                            +" #edges so far:"+str(self.edge_counter))
+                          
         
         building_list = self.building_bin.getbyGridCoords(gx, gy) #the buildings of this grid
         
@@ -642,6 +680,8 @@ class MapToGraphGenerator:
     self.binBuildingAndNodes()
     self.debugPrintSummary()
     self.calculateLOS()
+    self.logger.info("isEdgeCallCounter:"+str(self.isEdgeCallCounter))
+    self.logger.info("isIntersectingCounter:"+str(self.isIntersectingCallCounter))
     self.debugPrintSummary()
     if self.small_map_debug:
       self.debugGenerateVisualGraph()
